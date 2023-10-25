@@ -5,6 +5,19 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
     font-size: 1rem;
+
+    @media (max-width: ${({theme}) => theme.screen.largeNotebook}){
+      font-size: 90%;
+    }
+    @media (max-width: ${({theme}) => theme.screen.smallNotebook}){
+      font-size: 85%;
+    }
+    @media (max-width: ${({theme}) => theme.screen.tablet}){
+      font-size: 70%;
+    }
+    @media (max-width: ${({theme}) => theme.screen.smallTablet}){
+      font-size: 60%;
+    }
   }
 
   body {
@@ -31,6 +44,10 @@ export const GlobalStyles = createGlobalStyle`
   li{
     margin: 0;
     padding: 0;
+  }
+
+  ul{
+    list-style: none;
   }
 
   button{
