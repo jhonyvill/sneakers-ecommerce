@@ -24,8 +24,8 @@ const theme = {
     largeNotebook: "1400px",
     notebook: "1200px",
     smallNotebook: "1000px",
-    tablet: "800px",
-    smallTablet: "600px",
+    tablet: "820px",
+    smallTablet: "650px",
     largeMobile: '500px',
     mobile: "375px",
   }

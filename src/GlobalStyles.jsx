@@ -13,10 +13,13 @@ export const GlobalStyles = createGlobalStyle`
       font-size: 85%;
     }
     @media (max-width: ${({theme}) => theme.screen.tablet}){
-      font-size: 70%;
+      font-size: 90%;
     }
     @media (max-width: ${({theme}) => theme.screen.smallTablet}){
-      font-size: 60%;
+      font-size: 80%;
+    }
+    @media (max-width: ${({theme}) => theme.screen.largeMobile}){
+      font-size: 100%;
     }
   }
 

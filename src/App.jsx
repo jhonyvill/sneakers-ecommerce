@@ -1,14 +1,16 @@
-import {StyledApp} from './App.styles'
-import Header from "./components/Header"
+import { StyledApp } from "./App.styles";
+import Header from "./components/Header";
+import Product from "./components/Product";
 
 function App() {
-
   return (
     <StyledApp>
       <Header />
-      <p>Hello World!</p>
+      <main>
+        <Product />
+      </main>
     </StyledApp>
-  )
+  );
 }
 
-export default App
+export default App;
