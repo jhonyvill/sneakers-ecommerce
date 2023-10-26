@@ -1,17 +1,29 @@
 import React from "react";
+import { useContext } from "react";
 import { useState } from "react";
+import { ImageProductContext } from "../contexts/ImageProductContext";
 
-const useProductImage = (images) => {
-  const [featuredImage, setFeaturedImage] = useState(images[0]);
-  const [imageIndexActive, setImageIndexActive] = useState(0);
+export const useProductImage = (images) => {
+  const { imageSelected, indexImageSelected, handleSelectedModalImage } = useContext(ImageProductContext);
+  const [featuredImage, setFeaturedImage] = useState({
+    image: imageSelected || images[0],
+    index: indexImageSelected,
+  });
 
-  function handleChangeImage(images, indexClicked) {
-    if (indexClicked >= 0 && indexClicked <= images.length - 1) {
-      setFeaturedImage(images[indexClicked]);
-      setImageIndexActive(indexClicked);
-    }
+  function handleChangeImage(image, indexClicked) {
+    indexClicked >= 0 &&
+      indexClicked <= images.length - 1 &&
+      indexClicked !== featuredImage.index &&
+      setFeaturedImage({ image, index: indexClicked });
   }
-  return { featuredImage, imageIndexActive, handleChangeImage };
-};
+  function handleClickFeaturedImage() {
+    handleSelectedModalImage(featuredImage.image, featuredImage.index);
+  }
 
-export default useProductImage;
+  return {
+    featuredImage: featuredImage.image,
+    imageIndexActive: featuredImage.index,
+    handleChangeImage,
+    handleClickFeaturedImage,
+  };
+};

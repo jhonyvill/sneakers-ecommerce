@@ -1,16 +1,18 @@
 import React from "react";
 import * as S from "./styles";
 import CartSvg from "../../assets/icon-cart.svg?react";
-import ProductDescription from "./ProductDescription";
-import Counter from "../Utils/Counter";
-import Button from "../Utils/Button";
 import { useState, useEffect } from "react";
 import { useFetch } from "../../hooks/useFetch";
+import Button from "../Utils/Button";
+import Counter from "../Utils/Counter";
 import ProductImages from "./ProductImages";
+import ProductImageModal from "./ProductImageModal";
+import ProductDescription from "./ProductDescription";
 
 const Product = () => {
-  const [quantitySelected, setQuantitySelected] = useState(0);
   const { data, request } = useFetch();
+  const [modalActive, setModalActive] = useState(false);
+  const [quantitySelected, setQuantitySelected] = useState(0);
 
   useEffect(() => {
     async function getPhotos() {
@@ -23,7 +25,11 @@ const Product = () => {
   return (
     <S.Container>
       <S.ImagesContainer>
-        <ProductImages images={data.pictures} />
+        <ProductImages
+          images={data.pictures}
+          modalActive={false}
+          handleModalActive={setModalActive}
+        />
       </S.ImagesContainer>
 
       <S.DetailsContainer>
@@ -36,6 +42,13 @@ const Product = () => {
           </Button>
         </S.ProductActionContainer>
       </S.DetailsContainer>
+
+      {modalActive && (
+        <ProductImageModal
+          images={data.pictures}
+          handleModalActive={setModalActive}
+        />
+      )}
     </S.Container>
   );
 };

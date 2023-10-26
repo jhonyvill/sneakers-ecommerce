@@ -13,14 +13,10 @@ export const Container = styled.section`
     padding: 0;
     gap: 2rem 0;
   }
-
-  @media (max-width: ${({ theme }) => theme.screen.largeMobile}) {
-    padding: 0;
-  }
 `;
 
 export const ImagesContainer = styled.div`
-  max-width: 29rem;
+  max-width: 27rem;
   justify-self: center;
 
   @media (max-width: ${({ theme }) => theme.screen.tablet}) {
@@ -36,11 +32,10 @@ export const DetailsContainer = styled.div`
   justify-self: center;
 
   @media (max-width: ${({ theme }) => theme.screen.tablet}) {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 37.5rem;
   }
-  @media (max-width: ${({ theme }) => theme.screen.smallTablet}) {
-    max-width: 500px;
+  @media (max-width: ${({ theme }) => theme.screen.largeMobile}) {
+    padding: 0 1.5rem;
   }
 
 `;
