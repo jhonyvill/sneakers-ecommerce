@@ -22,7 +22,7 @@ export const Brand = styled.p`
   font-size: ${({ theme }) => theme.sizes.xs};
   letter-spacing: 0.15rem;
 
-  @media (max-width: ${({ theme }) => theme.screen.mobile}) {
+  @media (max-width: ${({ theme }) => theme.screen.largeMobile}) {
     letter-spacing: 0.1rem;
   }
 `;
@@ -33,7 +33,7 @@ export const Title = styled.h1`
   font-size: ${({ theme }) => theme.sizes.xxl};
   line-height: 1.1;
 
-  @media (max-width: ${({ theme }) => theme.screen.mobile}) {
+  @media (max-width: ${({ theme }) => theme.screen.largeMobile}) {
     font-size: ${({ theme }) => theme.sizes.xl};
   }
 `;
@@ -42,7 +42,7 @@ export const Description = styled.p`
   line-height: 1.6;
   margin-top: 1.25rem;
 
-  @media (max-width: ${({ theme }) => theme.screen.mobile}) {
+  @media (max-width: ${({ theme }) => theme.screen.largeMobile}) {
     font-size: ${({ theme }) => theme.sizes.s};
     line-height: 1.4;
     margin-top: 0;
