@@ -9,6 +9,7 @@ export const Container = styled.header`
   padding: 2rem 0;
   margin: 0 1.5rem;
   box-sizing: border-box;
+  position: relative;
 
   @media (max-width: ${({ theme }) => theme.screen.tablet}) {
     gap: 1rem;
@@ -31,9 +32,7 @@ export const Logo = styled.a`
   }
 `;
 
-export const Cart = styled.button`
-  background-color: transparent;
-`;
+
 
 export const ProfileImage = styled.img`
   width: 3.125rem;

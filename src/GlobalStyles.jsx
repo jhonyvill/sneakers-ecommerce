@@ -59,4 +59,11 @@ export const GlobalStyles = createGlobalStyle`
     border-radius: 8px;
     font-family: inherit;
   }
+
+  @keyframes transformAnimation {
+    to {
+      opacity: 1;
+      transform: initial;
+    }
+  }
 `;
