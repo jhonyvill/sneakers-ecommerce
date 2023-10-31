@@ -13,27 +13,32 @@ export const useCart = () => {
 
   function addCartProduct(product) {
     const existentProduct = findProductInCart(product);
-    if(existentProduct){
+    if (existentProduct) {
       cartDispatch({
         type: "UPDATE_ITEM",
         payload: {
-          product: product,
+          product,
           quantity: (existentProduct.quantity += quantitySelected),
         },
       });
-    }else if(quantitySelected > 0){
+    } else if (quantitySelected > 0) {
       cartDispatch({
         type: "ADD_ITEM",
-        payload: { product: product, quantity: quantitySelected },
+        payload: { product, quantity: quantitySelected },
       });
     }
     setQuantitySelected(0);
+  }
+
+  function removeCartProduct(id) {
+    cartHasItems && cartDispatch({ type: "DELETE_ITEM", payload: { id } });
   }
 
   return {
     quantitySelected,
     setQuantitySelected,
     addCartProduct,
-    cartHasItems
+    removeCartProduct,
+    cartHasItems,
   };
 };

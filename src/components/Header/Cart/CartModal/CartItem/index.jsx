@@ -2,10 +2,12 @@ import React from 'react'
 import * as S from './styles'
 import TrashSvg from "../../../../../assets/icon-delete.svg?react";
 import { useProductPrice } from '../../../../../hooks/useProductPrice';
+import { useCart } from '../../../../../hooks/useCart';
 
 const CartItem = ({item}) => {
   const {finalPrice, getTotalItemPrice} = useProductPrice(item.product);
   const totalItemPrice = getTotalItemPrice(item.quantity);
+  const { removeCartProduct } = useCart();
 
   return (
     <S.Item>
@@ -15,7 +17,7 @@ const CartItem = ({item}) => {
         <span>{`$${finalPrice} x ${item.quantity}`}</span>
         <S.TotalPrice>${totalItemPrice}</S.TotalPrice>
       </S.PriceContainer>
-      <S.DeleteButton>
+      <S.DeleteButton onClick={() => removeCartProduct(item.product.id)} aria-label='deletar item'>
         <TrashSvg />
       </S.DeleteButton>
     </S.Item>
