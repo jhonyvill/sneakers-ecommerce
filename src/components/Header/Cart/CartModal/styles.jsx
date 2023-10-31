@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 export const Modal = styled.section`
   width: 21.875rem;
@@ -52,5 +52,26 @@ export const Content = styled.div`
   align-items: center;
   flex-grow: 1;
   padding: 1.5rem;
+
+  & button {
+    margin-top: 1.5rem;
+  }
 `;
 
+export const Items = styled.ul`
+  width: 100%;
+  max-height: 21.875rem;
+  overflow: auto;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem 0;
+
+  &::-webkit-scrollbar {
+    width: 4px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: ${({ theme }) => theme.colors.primaryOrange};
+    border-radius: 4px;
+  }
+`;

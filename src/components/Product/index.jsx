@@ -8,11 +8,12 @@ import Counter from "../Utils/Counter";
 import ProductImages from "./ProductImages";
 import ProductImageModal from "./ProductImageModal";
 import ProductDescription from "./ProductDescription";
+import { useCart } from "../../hooks/useCart";
 
 const Product = () => {
   const { data, request } = useFetch();
   const [modalActive, setModalActive] = useState(false);
-  const [quantitySelected, setQuantitySelected] = useState(0);
+  const { quantitySelected, setQuantitySelected, addCartProduct } = useCart();
 
   useEffect(() => {
     async function getPhotos() {
@@ -37,7 +38,7 @@ const Product = () => {
 
         <S.ProductActionContainer>
           <Counter count={quantitySelected} setCount={setQuantitySelected} />
-          <Button className={"shadowActive"} aria-label="adicionar ao carrinho">
+          <Button className={"shadowActive"} aria-label="adicionar ao carrinho" onClick={() => addCartProduct(data)}>
             <CartSvg /> Add to cart
           </Button>
         </S.ProductActionContainer>
