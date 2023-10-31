@@ -15,7 +15,7 @@ const ProductImages = ({ images, modalActive, handleModalActive }) => {
   } = useProductImage(images);
 
   const smallScreen = useMedia("(max-width: 820px)");
-  
+
   return (
     <S.Container>
       <S.FeaturedImageContainer

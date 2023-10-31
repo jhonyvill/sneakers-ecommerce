@@ -22,7 +22,12 @@ const Cart = () => {
       >
         <CartSvg />
       </S.Cart>
-      {isCartModalOpen && <CartModal cartRef={cartRef} closeCartModal={() => setIsCartModalOpen(false)} />}
+      {isCartModalOpen && (
+        <CartModal
+          cartRef={cartRef}
+          closeCartModal={() => setIsCartModalOpen(false)}
+        />
+      )}
     </div>
   );
 };

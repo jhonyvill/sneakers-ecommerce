@@ -2,8 +2,7 @@ import * as S from "./styles";
 import PropTypes from "prop-types";
 import { useProductPrice } from "../../../hooks/useProductPrice";
 
-
-const ProductDescription = ({product}) => {
+const ProductDescription = ({ product }) => {
   const { price, finalPrice, discountPercent, hasDiscount } =
     useProductPrice(product);
 

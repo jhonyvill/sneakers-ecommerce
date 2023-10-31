@@ -6,13 +6,13 @@ import ProductImages from "../ProductImages";
 
 const ProductImageModal = ({ images, handleModalActive }) => {
   return (
-    <S.Container >
-      <S.Modal >
+    <S.Container>
+      <S.Modal>
         <S.CloseButton onClick={() => handleModalActive(false)}>
           <CloseSvg />
         </S.CloseButton>
 
-        <S.ImageContainer >
+        <S.ImageContainer>
           <ProductImages
             images={images}
             modalActive={true}

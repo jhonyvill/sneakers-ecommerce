@@ -20,8 +20,10 @@ export const CartProvider = ({ children }) => {
         updatedItems.slice(itemIndex, product);
         return { ...state, items: updatedItems };
       case "DELETE_ITEM":
-        const newItems = state.items.filter((item) => {return item.product.id !== action.payload.id})
-        return {...state, items: newItems}
+        const newItems = state.items.filter((item) => {
+          return item.product.id !== action.payload.id;
+        });
+        return { ...state, items: newItems };
       default:
         state;
     }

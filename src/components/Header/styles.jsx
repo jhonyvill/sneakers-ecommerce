@@ -13,6 +13,10 @@ export const Container = styled.header`
 
   @media (max-width: ${({ theme }) => theme.screen.tablet}) {
     gap: 1rem;
+
+    & div{
+      order: 2;
+    }
   }
   @media (max-width: ${({ theme }) => theme.screen.largeMobile}) {
     padding: 1.5rem 0;
@@ -24,15 +28,15 @@ export const Container = styled.header`
 `;
 
 export const Logo = styled.a`
-
+  @media (max-width: ${({ theme }) => theme.screen.tablet}) {
+    order: 1;
+  }
   @media (max-width: ${({ theme }) => theme.screen.mobile}) {
     & svg > * {
       scale: 0.9;
     }
   }
 `;
-
-
 
 export const ProfileImage = styled.img`
   width: 3.125rem;
@@ -45,6 +49,9 @@ export const ProfileImage = styled.img`
     border-color: ${({ theme }) => theme.colors.primaryOrange};
   }
 
+  @media (max-width: ${({ theme }) => theme.screen.tablet}) {
+    order: 3;
+  }
   @media (max-width: ${({ theme }) => theme.screen.largeMobile}) {
     width: 1.6rem;
   }

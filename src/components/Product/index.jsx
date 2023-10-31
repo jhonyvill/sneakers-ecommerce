@@ -38,7 +38,11 @@ const Product = () => {
 
         <S.ProductActionContainer>
           <Counter count={quantitySelected} setCount={setQuantitySelected} />
-          <Button className={"shadowActive"} aria-label="adicionar ao carrinho" onClick={() => addCartProduct(data)}>
+          <Button
+            className={"shadowActive"}
+            aria-label="adicionar ao carrinho"
+            onClick={() => addCartProduct(data)}
+          >
             <CartSvg /> Add to cart
           </Button>
         </S.ProductActionContainer>
