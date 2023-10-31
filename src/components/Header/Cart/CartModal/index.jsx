@@ -1,13 +1,12 @@
 import * as S from "./styles";
 import { useContext, useEffect } from "react";
 import { CartContext } from "../../../../contexts/CartContext";
-import { useCart } from "../../../../hooks/useCart";
+import PropTypes from "prop-types";
 import CartItem from "./CartItem";
 import Button from "../../../Utils/Button";
 
-const CartModal = ({ cartRef, closeCartModal }) => {
+const CartModal = ({ cartRef, closeCartModal, hasItems }) => {
   const { cartState } = useContext(CartContext);
-  const { cartHasItems } = useCart();
 
   function handleClickOutside(event) {
     if (!cartRef.current.contains(event.target)) closeCartModal();
@@ -24,7 +23,7 @@ const CartModal = ({ cartRef, closeCartModal }) => {
         <h2>Cart</h2>
       </S.Title>
       <S.Content>
-        {cartHasItems ? (
+        {hasItems ? (
           <>
             <S.Items>
               {cartState.items.map((item, index) => (
@@ -41,6 +40,12 @@ const CartModal = ({ cartRef, closeCartModal }) => {
       </S.Content>
     </S.Modal>
   );
+};
+
+CartModal.propTypes = {
+  cartRef: PropTypes.object,
+  closeCartModal: PropTypes.func,
+  hasItems: PropTypes.bool
 };
 
 export default CartModal;

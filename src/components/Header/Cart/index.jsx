@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import * as S from "./styles";
 import CartSvg from "../../../assets/icon-cart.svg?react";
-import { useState } from "react";
 import CartModal from "./CartModal";
-import { useRef } from "react";
+import { useCart } from "../../../hooks/useCart";
 
 const Cart = () => {
   const [isCartModalOpen, setIsCartModalOpen] = useState(false);
   const cartRef = useRef(null);
+  const { totalQuantityItemsCart, cartHasItems } = useCart();
 
   function handleCartModal() {
     setIsCartModalOpen(!isCartModalOpen);
@@ -21,11 +21,15 @@ const Cart = () => {
         onClick={handleCartModal}
       >
         <CartSvg />
+        {cartHasItems && (
+          <S.CartDetail>{totalQuantityItemsCart}</S.CartDetail>
+        )}
       </S.Cart>
       {isCartModalOpen && (
         <CartModal
           cartRef={cartRef}
           closeCartModal={() => setIsCartModalOpen(false)}
+          hasItems={cartHasItems}
         />
       )}
     </div>

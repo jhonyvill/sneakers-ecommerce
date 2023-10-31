@@ -3,6 +3,7 @@ import * as S from "./styles";
 import TrashSvg from "../../../../../assets/icon-delete.svg?react";
 import { useProductPrice } from "../../../../../hooks/useProductPrice";
 import { useCart } from "../../../../../hooks/useCart";
+import PropTypes from "prop-types";
 
 const CartItem = ({ item }) => {
   const { finalPrice, getTotalItemPrice } = useProductPrice(item.product);
@@ -30,6 +31,10 @@ const CartItem = ({ item }) => {
       </S.DeleteButton>
     </S.Item>
   );
+};
+
+CartItem.propTypes = {
+  item: PropTypes.object,
 };
 
 export default CartItem;

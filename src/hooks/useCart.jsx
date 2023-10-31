@@ -34,11 +34,18 @@ export const useCart = () => {
     cartHasItems && cartDispatch({ type: "DELETE_ITEM", payload: { id } });
   }
 
+  function getTotalQuantityOfCartItems(){
+    return cartState.items.reduce((accumulator, item) => {
+      return (accumulator += item.quantity);
+    }, 0);
+  }
+
   return {
     quantitySelected,
     setQuantitySelected,
     addCartProduct,
     removeCartProduct,
     cartHasItems,
+    totalQuantityItemsCart: getTotalQuantityOfCartItems()
   };
 };
