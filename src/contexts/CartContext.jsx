@@ -10,6 +10,15 @@ export const CartProvider = ({ children }) => {
     switch (action.type) {
       case "ADD_ITEM":
         return { ...state, items: [...state.items, action.payload] };
+      case "UPDATE_ITEM":
+        const { product } = action.payload;
+        const itemIndex = state.items.findIndex(
+          (item) => item.product.id === product.id
+        );
+
+        const updatedItems = [...state.items];
+        updatedItems.slice(itemIndex, product);
+        return { ...state, items: updatedItems };
       default:
         state;
     }
