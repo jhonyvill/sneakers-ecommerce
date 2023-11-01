@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 import CartItem from "./CartItem";
 import Button from "../../../Utils/Button";
 
-const CartModal = ({ cartRef, closeCartModal, hasItems }) => {
+const CartModal = ({ cartRef, closeCartModal, handleCheckout, hasItems }) => {
   const { cartState } = useContext(CartContext);
 
   function handleClickOutside(event) {
@@ -32,7 +32,7 @@ const CartModal = ({ cartRef, closeCartModal, hasItems }) => {
                 </li>
               ))}
             </S.Items>
-            <Button aria-label="finalizar compra">Checkout</Button>
+            <Button aria-label="finalizar compra" onClick={handleCheckout}>Checkout</Button>
           </>
         ) : (
           <p>Your cart is empty.</p>
@@ -45,6 +45,7 @@ const CartModal = ({ cartRef, closeCartModal, hasItems }) => {
 CartModal.propTypes = {
   cartRef: PropTypes.object,
   closeCartModal: PropTypes.func,
+  handleCheckout: PropTypes.func,
   hasItems: PropTypes.bool
 };
 

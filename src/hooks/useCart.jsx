@@ -40,11 +40,16 @@ export const useCart = () => {
     }, 0);
   }
 
+  function clearCart(){
+    cartDispatch({ type: "CLEAR", payload: {}});
+  }
+
   return {
     quantitySelected,
     setQuantitySelected,
     addCartProduct,
     removeCartProduct,
+    clearCart,
     cartHasItems,
     totalQuantityItemsCart: getTotalQuantityOfCartItems()
   };

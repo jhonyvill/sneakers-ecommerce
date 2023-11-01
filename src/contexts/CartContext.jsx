@@ -24,6 +24,8 @@ export const CartProvider = ({ children }) => {
           return item.product.id !== action.payload.id;
         });
         return { ...state, items: newItems };
+      case "CLEAR":
+        return initialState;
       default:
         state;
     }

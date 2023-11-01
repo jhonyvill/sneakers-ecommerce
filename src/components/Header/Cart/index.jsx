@@ -7,7 +7,7 @@ import { useCart } from "../../../hooks/useCart";
 const Cart = () => {
   const [isCartModalOpen, setIsCartModalOpen] = useState(false);
   const cartRef = useRef(null);
-  const { totalQuantityItemsCart, cartHasItems } = useCart();
+  const { totalQuantityItemsCart, cartHasItems, clearCart } = useCart();
 
   function handleCartModal() {
     setIsCartModalOpen(!isCartModalOpen);
@@ -29,6 +29,7 @@ const Cart = () => {
         <CartModal
           cartRef={cartRef}
           closeCartModal={() => setIsCartModalOpen(false)}
+          handleCheckout={() => clearCart()}
           hasItems={cartHasItems}
         />
       )}
