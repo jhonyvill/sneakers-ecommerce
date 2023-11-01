@@ -16,7 +16,7 @@ const Counter = ({ count, setCount }) => {
   }
 
   return (
-    <S.Container>
+    <S.Container aria-label="selecione a quantidade de itens">
       <S.CounterButton onClick={() => handleCounter(operator.subtraction)} aria-label="menos">
         <MinusSvg />
       </S.CounterButton>

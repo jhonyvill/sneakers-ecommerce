@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.section`
   background-color: ${({ theme }) => theme.colors.lightGrayishBlue};
   font-size: ${({ theme }) => theme.sizes.m};
   color: ${({ theme }) => theme.colors.blackOpacity};
@@ -9,10 +9,8 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* grid-column: 1; */
   height: 3.5rem;
   width: 15em;
-  /* min-width: 100px; */
   
   @media (max-width: ${({theme}) => theme.screen.tablet}){
     width: 180px;

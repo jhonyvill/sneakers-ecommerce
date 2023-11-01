@@ -17,7 +17,7 @@ const ProductImages = ({ images, modalActive, handleModalActive }) => {
   const smallScreen = useMedia("(max-width: 820px)");
 
   return (
-    <S.Container>
+    <S.Container aria-label="imagens do produto">
       <S.FeaturedImageContainer
         $container={(smallScreen && modalActive) ? "small" : "normal"}
       >
@@ -37,6 +37,7 @@ const ProductImages = ({ images, modalActive, handleModalActive }) => {
         {(modalActive || smallScreen) && (
           <S.ButtonWrapper>
             <S.PreviousButton
+              aria-label="imagem anterior"
               onClick={() => {
                 const previousIndex = imageIndexActive - 1;
                 handleChangeImage(images[previousIndex], previousIndex);
@@ -45,6 +46,7 @@ const ProductImages = ({ images, modalActive, handleModalActive }) => {
               <PreviousSvg />
             </S.PreviousButton>
             <S.NextButton
+              aria-label="próxima imagem"
               onClick={() => {
                 const nextIndex = imageIndexActive + 1;
                 handleChangeImage(images[nextIndex], nextIndex);

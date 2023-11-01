@@ -40,10 +40,10 @@ const Product = () => {
           <Counter count={quantitySelected} setCount={setQuantitySelected} />
           <Button
             className={"shadowActive"}
-            aria-label="adicionar ao carrinho"
+            aria-labelledby="add-btn"
             onClick={() => addCartProduct(data)}
           >
-            <CartSvg /> Add to cart
+            <CartSvg /> <span id="add-btn">Add to cart</span>
           </Button>
         </S.ProductActionContainer>
       </S.DetailsContainer>

@@ -7,7 +7,7 @@ const ProductDescription = ({ product }) => {
     useProductPrice(product);
 
   return (
-    <S.Container>
+    <S.Container aria-label="Descrição do produto">
       <S.Brand>{product.brand}</S.Brand>
       <S.Title>{product.title}</S.Title>
       <S.Description>{product.description}</S.Description>

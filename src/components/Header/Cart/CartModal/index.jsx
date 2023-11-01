@@ -18,7 +18,7 @@ const CartModal = ({ cartRef, closeCartModal, hasItems }) => {
   }, []);
 
   return (
-    <S.Modal>
+    <S.Modal aria-label="modal carrinho de compras">
       <S.Title>
         <h2>Cart</h2>
       </S.Title>
@@ -32,7 +32,7 @@ const CartModal = ({ cartRef, closeCartModal, hasItems }) => {
                 </li>
               ))}
             </S.Items>
-            <Button>Checkout</Button>
+            <Button aria-label="finalizar compra">Checkout</Button>
           </>
         ) : (
           <p>Your cart is empty.</p>
