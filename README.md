@@ -67,7 +67,7 @@ Menu:
 
 ## Solução
 
-- Acessar solução desenvolvida: [em desenvolvimento...]
+- Acessar solução desenvolvida: [jvs-sneakers-ecommerce-product-page.netlify.app](https://jvs-sneakers-ecommerce-product-page.netlify.app)
 
 ## Como executar
 
