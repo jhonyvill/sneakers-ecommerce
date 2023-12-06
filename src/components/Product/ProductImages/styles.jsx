@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const Container = styled.section`
   display: flex;
@@ -14,24 +14,20 @@ export const Container = styled.section`
   }
 `;
 
-const IMAGE_CONTAINER = {
-  small: css`
-    width: 90vw;
-    & img {
-      border-radius: 10px;
-    }
-  `,
-  normal: css`
-    width: 100vw;
-    height: 100%;
-  `,
-};
-
 export const FeaturedImageContainer = styled.div`
   position: relative;
 
   @media (max-width: ${({ theme }) => theme.screen.tablet}) {
-    ${({ $container }) => IMAGE_CONTAINER[$container]}
+    width: 100vw;
+    height: 100%;
+
+    &.small{
+      width: 90vw;
+      height: initial;
+      & img {
+        border-radius: 10px;
+      }
+    }
   }
 `;
 

@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Cart /> snapshots should match snapshot when cart is empty 1`] = `
+<section
+  aria-label="carrinho de compras"
+>
+  <button
+    aria-expanded="false"
+    class="sc-bdnyFh eQakMx"
+  >
+    <icon-mock
+      data-testid="cart-svg"
+    />
+  </button>
+</section>
+`;
+
+exports[`<Cart /> snapshots should match snapshot when cart modal open 1`] = `
+<section
+  aria-label="carrinho de compras"
+>
+  <button
+    aria-expanded="true"
+    class="sc-bdnyFh eQakMx"
+  >
+    <icon-mock
+      data-testid="cart-svg"
+    />
+    <span
+      class="sc-gtsqUy fRBgv"
+      data-testid="cart-detail"
+    >
+      1
+    </span>
+  </button>
+  <section
+    aria-label="modal carrinho de compras"
+    class="sc-dlniIP ewAXln"
+  >
+    <div
+      class="sc-hKFymg cCOwRs"
+    >
+      <h2>
+        Cart
+      </h2>
+    </div>
+    <div
+      class="sc-eCAqax cyRvTh"
+    >
+      <ul
+        class="sc-jSFipO jwfbaT"
+      />
+      <button
+        aria-label="finalizar compra"
+        class="sc-iqAbyq hIjlCR"
+      >
+        Checkout
+      </button>
+    </div>
+  </section>
+</section>
+`;
+
+exports[`<Cart /> snapshots should match snapshot when cart not is empty 1`] = `
+<section
+  aria-label="carrinho de compras"
+>
+  <button
+    aria-expanded="false"
+    class="sc-bdnyFh eQakMx"
+  >
+    <icon-mock
+      data-testid="cart-svg"
+    />
+    <span
+      class="sc-gtsqUy fRBgv"
+      data-testid="cart-detail"
+    >
+      1
+    </span>
+  </button>
+</section>
+`;
