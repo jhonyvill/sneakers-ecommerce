@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <S.Container>
       <S.Logo href="#" aria-label="Home">
-        <LogoSvg />
+        <LogoSvg data-testid="logo-svg"/>
       </S.Logo>
 
       <HeaderNav />

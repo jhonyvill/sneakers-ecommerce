@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> snapshots should match snapshot 1`] = `
+<header
+  class="sc-bdnyFh htVkVe"
+>
+  <a
+    aria-label="Home"
+    class="sc-gtsqUy bRFIqN"
+    href="#"
+  >
+    <icon-mock
+      data-testid="logo-svg"
+    />
+  </a>
+  <nav
+    class="sc-hKFymg iPCBOv"
+  >
+    <ul
+      class="sc-eCAqax iZyBgR false false"
+      data-testid="nav-list"
+    >
+      <li
+        class="sc-jSFipO jpJmME"
+      >
+        <a
+          href="#"
+        >
+          Collections
+        </a>
+      </li>
+      <li
+        class="sc-jSFipO jpJmME"
+      >
+        <a
+          href="#"
+        >
+          Men
+        </a>
+      </li>
+      <li
+        class="sc-jSFipO jpJmME"
+      >
+        <a
+          href="#"
+        >
+          Women
+        </a>
+      </li>
+      <li
+        class="sc-jSFipO jpJmME"
+      >
+        <a
+          href="#"
+        >
+          About
+        </a>
+      </li>
+      <li
+        class="sc-jSFipO jpJmME"
+      >
+        <a
+          href="#"
+        >
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <section
+    aria-label="carrinho de compras"
+  >
+    <button
+      aria-expanded="false"
+      class="sc-iCoHzw cHWYVK"
+    >
+      <icon-mock
+        data-testid="cart-svg"
+      />
+    </button>
+  </section>
+  <img
+    alt="imagem de perfil"
+    class="sc-dlniIP hFZrHC"
+    height="100px"
+    src=""
+    width="100px"
+  />
+</header>
+`;
