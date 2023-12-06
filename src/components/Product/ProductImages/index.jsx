@@ -19,9 +19,11 @@ const ProductImages = ({ images, modalActive, handleModalActive }) => {
   return (
     <S.Container aria-label="imagens do produto">
       <S.FeaturedImageContainer
-        $container={(smallScreen && modalActive) ? "small" : "normal"}
+        data-testid="container-featured-image"
+        className={smallScreen && modalActive && "small"}
       >
         <S.FeaturedImage
+          data-testid="featured-image"
           width="1000px"
           height="1000px"
           src={featuredImage.src}
@@ -61,18 +63,21 @@ const ProductImages = ({ images, modalActive, handleModalActive }) => {
       <S.ImagesGrid>
         {images.map((image, index) => {
           return (
-            <S.Image
-              key={index}
-              className={imageIndexActive === index && "active"}
-              onClick={() => handleChangeImage(image, index)}
-            >
-              <img
-                width="176px"
-                height="176px"
-                src={image.thumb}
-                alt={image.alt}
-              />
-            </S.Image>
+            index < 4 && (
+              <S.Image
+                data-testid={`grid-image-${index}`}
+                key={index}
+                className={imageIndexActive === index && "active"}
+                onClick={() => handleChangeImage(image, index)}
+              >
+                <img
+                  width="176px"
+                  height="176px"
+                  src={image.thumb}
+                  alt={image.alt}
+                />
+              </S.Image>
+            )
           );
         })}
       </S.ImagesGrid>
@@ -82,8 +87,8 @@ const ProductImages = ({ images, modalActive, handleModalActive }) => {
 
 ProductImages.propTypes = {
   images: PropTypes.array.isRequired,
-  modalActive: PropTypes.bool,
-  handleModalActive: PropTypes.func,
+  modalActive: PropTypes.bool.isRequired,
+  handleModalActive: PropTypes.func.isRequired,
 };
 
 export default ProductImages;

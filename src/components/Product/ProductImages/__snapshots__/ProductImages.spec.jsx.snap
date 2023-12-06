@@ -1,0 +1,325 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductImages /> snapshots should match snapshot 1`] = `
+<section
+  aria-label="imagens do produto"
+  class="sc-bdnyFh fPwIWZ"
+>
+  <div
+    class="sc-gtsqUy ihcXiq"
+    data-testid="container-featured-image"
+  >
+    <img
+      alt="product 1"
+      class="sc-dlniIP iqruGc"
+      data-testid="featured-image"
+      height="1000px"
+      src="image-1.jpg"
+      width="1000px"
+    />
+  </div>
+  <div
+    class="sc-hKFymg ljGcIY"
+  >
+    <div
+      class="sc-eCAqax ddLQhb active"
+      data-testid="grid-image-0"
+    >
+      <img
+        alt="product 1"
+        height="176px"
+        src="thumbnail-1.jpg"
+        width="176px"
+      />
+    </div>
+    <div
+      class="sc-eCAqax ddLQhb"
+      data-testid="grid-image-1"
+    >
+      <img
+        alt="product 2"
+        height="176px"
+        src="thumbnail-2.jpg"
+        width="176px"
+      />
+    </div>
+    <div
+      class="sc-eCAqax ddLQhb"
+      data-testid="grid-image-2"
+    >
+      <img
+        alt="product 3"
+        height="176px"
+        src="thumbnail-3.jpg"
+        width="176px"
+      />
+    </div>
+    <div
+      class="sc-eCAqax ddLQhb"
+      data-testid="grid-image-3"
+    >
+      <img
+        alt="product 4"
+        height="176px"
+        src="thumbnail-4.jpg"
+        width="176px"
+      />
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<ProductImages /> snapshots should match snapshot when modal active 1`] = `
+<section
+  aria-label="imagens do produto"
+  class="sc-bdnyFh fPwIWZ"
+>
+  <div
+    class="sc-gtsqUy ihcXiq"
+    data-testid="container-featured-image"
+  >
+    <img
+      alt="product 1"
+      class="sc-dlniIP iqruGc"
+      data-testid="featured-image"
+      height="1000px"
+      src="image-1.jpg"
+      width="1000px"
+    />
+    <div
+      class="sc-jSFipO cYlmsE"
+    >
+      <button
+        aria-label="imagem anterior"
+        class="sc-gKAaef sc-iCoHzw jGlZmE jPrXqN"
+      >
+        <icon-mock />
+      </button>
+      <button
+        aria-label="próxima imagem"
+        class="sc-gKAaef sc-fujznN jGlZmE gzxJie"
+      >
+        <icon-mock />
+      </button>
+    </div>
+  </div>
+  <div
+    class="sc-hKFymg ljGcIY"
+  >
+    <div
+      class="sc-eCAqax ddLQhb active"
+      data-testid="grid-image-0"
+    >
+      <img
+        alt="product 1"
+        height="176px"
+        src="thumbnail-1.jpg"
+        width="176px"
+      />
+    </div>
+    <div
+      class="sc-eCAqax ddLQhb"
+      data-testid="grid-image-1"
+    >
+      <img
+        alt="product 2"
+        height="176px"
+        src="thumbnail-2.jpg"
+        width="176px"
+      />
+    </div>
+    <div
+      class="sc-eCAqax ddLQhb"
+      data-testid="grid-image-2"
+    >
+      <img
+        alt="product 3"
+        height="176px"
+        src="thumbnail-3.jpg"
+        width="176px"
+      />
+    </div>
+    <div
+      class="sc-eCAqax ddLQhb"
+      data-testid="grid-image-3"
+    >
+      <img
+        alt="product 4"
+        height="176px"
+        src="thumbnail-4.jpg"
+        width="176px"
+      />
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<ProductImages /> snapshots should match snapshot when modal active and small screen 1`] = `
+<section
+  aria-label="imagens do produto"
+  class="sc-bdnyFh fPwIWZ"
+>
+  <div
+    class="sc-gtsqUy ihcXiq small"
+    data-testid="container-featured-image"
+  >
+    <img
+      alt="product 1"
+      class="sc-dlniIP iqruGc"
+      data-testid="featured-image"
+      height="1000px"
+      src="image-1.jpg"
+      width="1000px"
+    />
+    <div
+      class="sc-jSFipO cYlmsE"
+    >
+      <button
+        aria-label="imagem anterior"
+        class="sc-gKAaef sc-iCoHzw jGlZmE jPrXqN"
+      >
+        <icon-mock />
+      </button>
+      <button
+        aria-label="próxima imagem"
+        class="sc-gKAaef sc-fujznN jGlZmE gzxJie"
+      >
+        <icon-mock />
+      </button>
+    </div>
+  </div>
+  <div
+    class="sc-hKFymg ljGcIY"
+  >
+    <div
+      class="sc-eCAqax ddLQhb active"
+      data-testid="grid-image-0"
+    >
+      <img
+        alt="product 1"
+        height="176px"
+        src="thumbnail-1.jpg"
+        width="176px"
+      />
+    </div>
+    <div
+      class="sc-eCAqax ddLQhb"
+      data-testid="grid-image-1"
+    >
+      <img
+        alt="product 2"
+        height="176px"
+        src="thumbnail-2.jpg"
+        width="176px"
+      />
+    </div>
+    <div
+      class="sc-eCAqax ddLQhb"
+      data-testid="grid-image-2"
+    >
+      <img
+        alt="product 3"
+        height="176px"
+        src="thumbnail-3.jpg"
+        width="176px"
+      />
+    </div>
+    <div
+      class="sc-eCAqax ddLQhb"
+      data-testid="grid-image-3"
+    >
+      <img
+        alt="product 4"
+        height="176px"
+        src="thumbnail-4.jpg"
+        width="176px"
+      />
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<ProductImages /> snapshots should match snapshot when small screen 1`] = `
+<section
+  aria-label="imagens do produto"
+  class="sc-bdnyFh fPwIWZ"
+>
+  <div
+    class="sc-gtsqUy ihcXiq"
+    data-testid="container-featured-image"
+  >
+    <img
+      alt="product 1"
+      class="sc-dlniIP iqruGc"
+      data-testid="featured-image"
+      height="1000px"
+      src="image-1.jpg"
+      width="1000px"
+    />
+    <div
+      class="sc-jSFipO cYlmsE"
+    >
+      <button
+        aria-label="imagem anterior"
+        class="sc-gKAaef sc-iCoHzw jGlZmE jPrXqN"
+      >
+        <icon-mock />
+      </button>
+      <button
+        aria-label="próxima imagem"
+        class="sc-gKAaef sc-fujznN jGlZmE gzxJie"
+      >
+        <icon-mock />
+      </button>
+    </div>
+  </div>
+  <div
+    class="sc-hKFymg ljGcIY"
+  >
+    <div
+      class="sc-eCAqax ddLQhb active"
+      data-testid="grid-image-0"
+    >
+      <img
+        alt="product 1"
+        height="176px"
+        src="thumbnail-1.jpg"
+        width="176px"
+      />
+    </div>
+    <div
+      class="sc-eCAqax ddLQhb"
+      data-testid="grid-image-1"
+    >
+      <img
+        alt="product 2"
+        height="176px"
+        src="thumbnail-2.jpg"
+        width="176px"
+      />
+    </div>
+    <div
+      class="sc-eCAqax ddLQhb"
+      data-testid="grid-image-2"
+    >
+      <img
+        alt="product 3"
+        height="176px"
+        src="thumbnail-3.jpg"
+        width="176px"
+      />
+    </div>
+    <div
+      class="sc-eCAqax ddLQhb"
+      data-testid="grid-image-3"
+    >
+      <img
+        alt="product 4"
+        height="176px"
+        src="thumbnail-4.jpg"
+        width="176px"
+      />
+    </div>
+  </div>
+</section>
+`;
