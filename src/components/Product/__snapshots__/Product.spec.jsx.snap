@@ -1,0 +1,434 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Product /> snapshots should match snapshot 1`] = `
+<section
+  class="sc-bdnyFh fQRdBh"
+>
+  <div
+    class="sc-gtsqUy gBoquZ"
+  >
+    <section
+      aria-label="imagens do produto"
+      class="sc-iCoHzw Uteby"
+    >
+      <div
+        class="sc-fujznN bblVBs"
+        data-testid="container-featured-image"
+      >
+        <img
+          alt="product 1"
+          class="sc-pNWRh iaSvUF"
+          data-testid="featured-image"
+          height="1000px"
+          src="image-1.jpg"
+          width="1000px"
+        />
+      </div>
+      <div
+        class="sc-jrsKJM gKwwnN"
+      >
+        <div
+          class="sc-kEqXeH jvhliy active"
+          data-testid="grid-image-0"
+        >
+          <img
+            alt="product 1"
+            height="176px"
+            src="thumbnail 1.jpg"
+            width="176px"
+          />
+        </div>
+        <div
+          class="sc-kEqXeH jvhliy"
+          data-testid="grid-image-1"
+        >
+          <img
+            alt="product 2"
+            height="176px"
+            src="thumbnail 2.jpg"
+            width="176px"
+          />
+        </div>
+        <div
+          class="sc-kEqXeH jvhliy"
+          data-testid="grid-image-2"
+        >
+          <img
+            alt="product 3"
+            height="176px"
+            src="thumbnail 3.jpg"
+            width="176px"
+          />
+        </div>
+        <div
+          class="sc-kEqXeH jvhliy"
+          data-testid="grid-image-3"
+        >
+          <img
+            alt="product 4"
+            height="176px"
+            src="thumbnail 4.jpg"
+            width="176px"
+          />
+        </div>
+      </div>
+    </section>
+  </div>
+  <div
+    class="sc-dlniIP ktecEC"
+  >
+    <section
+      aria-label="descrição do produto"
+      class="sc-bkbjWr bkLoeD"
+    >
+      <p
+        class="sc-iemXqs gRWDTa"
+      >
+        brand-1
+      </p>
+      <h1
+        class="sc-dIvsgl hHGbOa"
+      >
+        title-1
+      </h1>
+      <p
+        class="sc-hHEhDq bdOHoR"
+      >
+        description-1
+      </p>
+      <div
+        class="sc-dlMCtj kXrjst"
+      >
+        <span
+          class="sc-kfYpNk jhnLmI"
+        >
+          <span
+            class="sc-fKgKDd fpcmQb"
+          >
+            $
+            5.00
+          </span>
+          <span
+            class="sc-bCwene cuiqbm"
+          >
+            50
+            %
+          </span>
+        </span>
+        <p
+          class="sc-iwaiBT fvToHb"
+        >
+          $
+          10.00
+        </p>
+      </div>
+    </section>
+    <div
+      class="sc-hKFymg jkmLMr"
+    >
+      <section
+        aria-label="selecione a quantidade de itens"
+        class="sc-jSFipO fTVKgw"
+      >
+        <button
+          aria-label="menos"
+          class="sc-gKAaef jeScbK"
+        >
+          <icon-mock />
+        </button>
+        <span
+          data-testid="counter"
+        >
+          0
+        </span>
+        <button
+          aria-label="mais"
+          class="sc-gKAaef jeScbK"
+        >
+          <icon-mock />
+        </button>
+      </section>
+      <button
+        aria-labelledby="add-btn"
+        class="sc-eCAqax bfwZGh shadowActive"
+      >
+        <icon-mock />
+         
+        <span
+          id="add-btn"
+        >
+          Add to cart
+        </span>
+      </button>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`<Product /> snapshots should match snapshot when data is null 1`] = `null`;
+
+exports[`<Product /> snapshots should match snapshot when modal active 1`] = `
+<section
+  class="sc-bdnyFh fQRdBh"
+>
+  <div
+    class="sc-gtsqUy gBoquZ"
+  >
+    <section
+      aria-label="imagens do produto"
+      class="sc-iCoHzw Uteby"
+    >
+      <div
+        class="sc-fujznN bblVBs"
+        data-testid="container-featured-image"
+      >
+        <img
+          alt="product 1"
+          class="sc-pNWRh iaSvUF"
+          data-testid="featured-image"
+          height="1000px"
+          src="image-1.jpg"
+          width="1000px"
+        />
+      </div>
+      <div
+        class="sc-jrsKJM gKwwnN"
+      >
+        <div
+          class="sc-kEqXeH jvhliy active"
+          data-testid="grid-image-0"
+        >
+          <img
+            alt="product 1"
+            height="176px"
+            src="thumbnail 1.jpg"
+            width="176px"
+          />
+        </div>
+        <div
+          class="sc-kEqXeH jvhliy"
+          data-testid="grid-image-1"
+        >
+          <img
+            alt="product 2"
+            height="176px"
+            src="thumbnail 2.jpg"
+            width="176px"
+          />
+        </div>
+        <div
+          class="sc-kEqXeH jvhliy"
+          data-testid="grid-image-2"
+        >
+          <img
+            alt="product 3"
+            height="176px"
+            src="thumbnail 3.jpg"
+            width="176px"
+          />
+        </div>
+        <div
+          class="sc-kEqXeH jvhliy"
+          data-testid="grid-image-3"
+        >
+          <img
+            alt="product 4"
+            height="176px"
+            src="thumbnail 4.jpg"
+            width="176px"
+          />
+        </div>
+      </div>
+    </section>
+  </div>
+  <div
+    class="sc-dlniIP ktecEC"
+  >
+    <section
+      aria-label="descrição do produto"
+      class="sc-bkbjWr bkLoeD"
+    >
+      <p
+        class="sc-iemXqs gRWDTa"
+      >
+        brand-1
+      </p>
+      <h1
+        class="sc-dIvsgl hHGbOa"
+      >
+        title-1
+      </h1>
+      <p
+        class="sc-hHEhDq bdOHoR"
+      >
+        description-1
+      </p>
+      <div
+        class="sc-dlMCtj kXrjst"
+      >
+        <span
+          class="sc-kfYpNk jhnLmI"
+        >
+          <span
+            class="sc-fKgKDd fpcmQb"
+          >
+            $
+            5.00
+          </span>
+          <span
+            class="sc-bCwene cuiqbm"
+          >
+            50
+            %
+          </span>
+        </span>
+        <p
+          class="sc-iwaiBT fvToHb"
+        >
+          $
+          10.00
+        </p>
+      </div>
+    </section>
+    <div
+      class="sc-hKFymg jkmLMr"
+    >
+      <section
+        aria-label="selecione a quantidade de itens"
+        class="sc-jSFipO fTVKgw"
+      >
+        <button
+          aria-label="menos"
+          class="sc-gKAaef jeScbK"
+        >
+          <icon-mock />
+        </button>
+        <span
+          data-testid="counter"
+        >
+          0
+        </span>
+        <button
+          aria-label="mais"
+          class="sc-gKAaef jeScbK"
+        >
+          <icon-mock />
+        </button>
+      </section>
+      <button
+        aria-labelledby="add-btn"
+        class="sc-eCAqax bfwZGh shadowActive"
+      >
+        <icon-mock />
+         
+        <span
+          id="add-btn"
+        >
+          Add to cart
+        </span>
+      </button>
+    </div>
+  </div>
+  <section
+    aria-label="modal imagens do produto"
+    class="sc-ksltVi hxbWzb"
+  >
+    <div
+      class="sc-hBMVwJ jZTGwZ"
+    >
+      <button
+        class="sc-fFSPgy cSaxlI"
+        data-testid="close-button"
+      >
+        <icon-mock />
+      </button>
+      <div
+        class="sc-fnVZQs jTnscf"
+      >
+        <section
+          aria-label="imagens do produto"
+          class="sc-iCoHzw Uteby"
+        >
+          <div
+            class="sc-fujznN bblVBs"
+            data-testid="container-featured-image"
+          >
+            <img
+              alt="product 1"
+              class="sc-pNWRh iaSvUF"
+              data-testid="featured-image"
+              height="1000px"
+              src="image-1.jpg"
+              width="1000px"
+            />
+            <div
+              class="sc-iqAbyq fSNvkK"
+            >
+              <button
+                aria-label="imagem anterior"
+                class="sc-crzpnZ sc-dItHI jGLZJs lowHbl"
+              >
+                <icon-mock />
+              </button>
+              <button
+                aria-label="próxima imagem"
+                class="sc-crzpnZ sc-bqGGcD jGLZJs iqwyBN"
+              >
+                <icon-mock />
+              </button>
+            </div>
+          </div>
+          <div
+            class="sc-jrsKJM gKwwnN"
+          >
+            <div
+              class="sc-kEqXeH jvhliy active"
+              data-testid="grid-image-0"
+            >
+              <img
+                alt="product 1"
+                height="176px"
+                src="thumbnail 1.jpg"
+                width="176px"
+              />
+            </div>
+            <div
+              class="sc-kEqXeH jvhliy"
+              data-testid="grid-image-1"
+            >
+              <img
+                alt="product 2"
+                height="176px"
+                src="thumbnail 2.jpg"
+                width="176px"
+              />
+            </div>
+            <div
+              class="sc-kEqXeH jvhliy"
+              data-testid="grid-image-2"
+            >
+              <img
+                alt="product 3"
+                height="176px"
+                src="thumbnail 3.jpg"
+                width="176px"
+              />
+            </div>
+            <div
+              class="sc-kEqXeH jvhliy"
+              data-testid="grid-image-3"
+            >
+              <img
+                alt="product 4"
+                height="176px"
+                src="thumbnail 4.jpg"
+                width="176px"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+</section>
+`;
