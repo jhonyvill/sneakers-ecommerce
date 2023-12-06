@@ -14,26 +14,25 @@ const Cart = () => {
   }
 
   return (
-    <div ref={cartRef}>
+    <section ref={cartRef} aria-label="carrinho de compras">
       <S.Cart
-        aria-label="carrinho de compras"
         aria-expanded={isCartModalOpen}
         onClick={handleCartModal}
       >
-        <CartSvg />
+        <CartSvg data-testid="cart-svg"/>
         {cartHasItems && (
-          <S.CartDetail>{totalQuantityItemsCart}</S.CartDetail>
+          <S.CartDetail data-testid="cart-detail">{totalQuantityItemsCart}</S.CartDetail>
         )}
       </S.Cart>
       {isCartModalOpen && (
         <CartModal
           cartRef={cartRef}
-          closeCartModal={() => setIsCartModalOpen(false)}
-          handleCheckout={() => clearCart()}
+          isModalOpen={setIsCartModalOpen}
+          handleCheckout={clearCart}
           hasItems={cartHasItems}
         />
       )}
-    </div>
+    </section>
   );
 };
 

@@ -17,11 +17,15 @@ const HeaderNav = () => {
           aria-expanded={isMenuActive}
           onClick={() => setIsMenuActive(!isMenuActive)}
         >
-          {isMenuActive ? <CloseSvg /> : <MenuSvg />}
+          {isMenuActive 
+            ? (<CloseSvg data-testid="close-svg" />) 
+            : (<MenuSvg data-testid="menu-svg" />)
+          }
         </S.MenuButton>
       )}
 
       <S.NavLinks
+        data-testid="nav-list"
         className={`${smallScreen && "smallScreen"} ${isMenuActive && "menuActive"}`}
       >
         <S.StyledItem>

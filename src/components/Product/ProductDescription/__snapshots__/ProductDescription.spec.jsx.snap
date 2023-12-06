@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductDescription /> snapshots should match snapshot 1`] = `
+<section
+  aria-label="descrição do produto"
+  class="sc-bdnyFh dlhKug"
+>
+  <p
+    class="sc-gtsqUy cHGXaI"
+  >
+    brand mock
+  </p>
+  <h1
+    class="sc-dlniIP hnpDyv"
+  >
+    title mock
+  </h1>
+  <p
+    class="sc-hKFymg kgwXvP"
+  >
+    description mock
+  </p>
+  <div
+    class="sc-eCAqax hWGQVW"
+  >
+    <span
+      class="sc-jSFipO foojKQ"
+    >
+      <span
+        class="sc-gKAaef iKCHHJ"
+      >
+        $
+        125.00
+      </span>
+      <span
+        class="sc-iCoHzw ixzhAG"
+      >
+        50
+        %
+      </span>
+    </span>
+    <p
+      class="sc-fujznN joVKDY"
+    >
+      $
+      250.00
+    </p>
+  </div>
+</section>
+`;
+
+exports[`<ProductDescription /> snapshots should match snapshot of product description without discount 1`] = `
+<section
+  aria-label="descrição do produto"
+  class="sc-bdnyFh dlhKug"
+>
+  <p
+    class="sc-gtsqUy cHGXaI"
+  >
+    brand mock
+  </p>
+  <h1
+    class="sc-dlniIP hnpDyv"
+  >
+    title mock
+  </h1>
+  <p
+    class="sc-hKFymg kgwXvP"
+  >
+    description mock
+  </p>
+  <span
+    class="sc-gKAaef iKCHHJ"
+  >
+    $
+    250.00
+  </span>
+</section>
+`;

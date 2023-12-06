@@ -1,9 +1,9 @@
 import React from "react";
 
-export const useProductPrice = (product) => {
-  const discountPercent = product.discount * 100;
-  const price = product.price.toFixed(2);
-  const discountValue = price * product.discount;
+export const useProductPrice = (initialPrice, discount) => {
+  const discountPercent = discount * 100;
+  const price = initialPrice.toFixed(2);
+  const discountValue = price * discount;
   const finalPrice = (price - discountValue).toFixed(2);
   const hasDiscount = discountPercent > 0;
 

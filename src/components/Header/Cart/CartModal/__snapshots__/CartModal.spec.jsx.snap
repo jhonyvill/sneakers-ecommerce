@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartModal /> snapshots should match snapshot 1`] = `
+<section
+  aria-label="modal carrinho de compras"
+  class="sc-bdnyFh ieuDOa"
+>
+  <div
+    class="sc-gtsqUy bMTtzH"
+  >
+    <h2>
+      Cart
+    </h2>
+  </div>
+  <div
+    class="sc-dlniIP kWsVGs"
+  >
+    <ul
+      class="sc-hKFymg jvPhoA"
+    >
+      <li>
+        <div
+          class="sc-eCAqax cCMqVm"
+        >
+          <img
+            alt="product 1"
+            class="sc-jSFipO dNdahi"
+            height="176px"
+            src="thumbnail-1.jpg"
+            width="176px"
+          />
+          <h2
+            class="sc-gKAaef dLbczZ"
+          >
+            title mock
+          </h2>
+          <div
+            class="sc-iCoHzw gtVcVg"
+          >
+            <span>
+              $125.00 x 1
+            </span>
+            <span
+              class="sc-fujznN iuzEom"
+              data-testid="total-price"
+            >
+              $
+              125.00
+            </span>
+          </div>
+          <button
+            aria-label="deletar item"
+            class="sc-pNWRh cqTcdp"
+          >
+            <icon-mock
+              data-testid="trash-svg"
+            />
+          </button>
+        </div>
+      </li>
+      <li>
+        <div
+          class="sc-eCAqax cCMqVm"
+        >
+          <img
+            alt="product 1"
+            class="sc-jSFipO dNdahi"
+            height="176px"
+            src="thumbnail-1.jpg"
+            width="176px"
+          />
+          <h2
+            class="sc-gKAaef dLbczZ"
+          >
+            title mock
+          </h2>
+          <div
+            class="sc-iCoHzw gtVcVg"
+          >
+            <span>
+              $125.00 x 1
+            </span>
+            <span
+              class="sc-fujznN iuzEom"
+              data-testid="total-price"
+            >
+              $
+              125.00
+            </span>
+          </div>
+          <button
+            aria-label="deletar item"
+            class="sc-pNWRh cqTcdp"
+          >
+            <icon-mock
+              data-testid="trash-svg"
+            />
+          </button>
+        </div>
+      </li>
+    </ul>
+    <button
+      aria-label="finalizar compra"
+      class="sc-jrsKJM jabYbl"
+    >
+      Checkout
+    </button>
+  </div>
+</section>
+`;
+
+exports[`<CartModal /> snapshots should match snapshot when cart is empty 1`] = `
+<section
+  aria-label="modal carrinho de compras"
+  class="sc-bdnyFh ieuDOa"
+>
+  <div
+    class="sc-gtsqUy bMTtzH"
+  >
+    <h2>
+      Cart
+    </h2>
+  </div>
+  <div
+    class="sc-dlniIP kWsVGs"
+  >
+    <p>
+      Your cart is empty.
+    </p>
+  </div>
+</section>
+`;

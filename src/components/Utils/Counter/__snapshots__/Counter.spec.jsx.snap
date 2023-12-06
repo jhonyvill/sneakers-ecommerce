@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Counter /> snapshots should match snapshot 1`] = `
+<section
+  aria-label="selecione a quantidade de itens"
+  class="sc-bdnyFh fylSRC"
+>
+  <button
+    aria-label="menos"
+    class="sc-gtsqUy hyajVU"
+  >
+    <icon-mock />
+  </button>
+  <span
+    data-testid="counter"
+  >
+    0
+  </span>
+  <button
+    aria-label="mais"
+    class="sc-gtsqUy hyajVU"
+  >
+    <icon-mock />
+  </button>
+</section>
+`;

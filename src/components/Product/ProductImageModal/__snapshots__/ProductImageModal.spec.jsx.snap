@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ProductImageModal /> snapshots should match snapshot 1`] = `
+<section
+  aria-label="modal imagens do produto"
+  class="sc-bdnyFh clwfon"
+>
+  <div
+    class="sc-gtsqUy bLqwoc"
+  >
+    <button
+      class="sc-hKFymg cJNBDr"
+      data-testid="close-button"
+    >
+      <icon-mock />
+    </button>
+    <div
+      class="sc-dlniIP byVjyn"
+    >
+      <section
+        aria-label="imagens do produto"
+        class="sc-eCAqax hDflWt"
+      >
+        <div
+          class="sc-jSFipO jrafLG"
+          data-testid="container-featured-image"
+        >
+          <img
+            alt="product 1"
+            class="sc-gKAaef bMgamR"
+            data-testid="featured-image"
+            height="1000px"
+            src="image-1.jpg"
+            width="1000px"
+          />
+          <div
+            class="sc-pNWRh ckRWKm"
+          >
+            <button
+              aria-label="imagem anterior"
+              class="sc-jrsKJM sc-kEqXeH loeQiw dXunnj"
+            >
+              <icon-mock />
+            </button>
+            <button
+              aria-label="próxima imagem"
+              class="sc-jrsKJM sc-iqAbyq loeQiw jevpNi"
+            >
+              <icon-mock />
+            </button>
+          </div>
+        </div>
+        <div
+          class="sc-iCoHzw kKvUfO"
+        >
+          <div
+            class="sc-fujznN hEJSXn active"
+            data-testid="grid-image-0"
+          >
+            <img
+              alt="product 1"
+              height="176px"
+              src="thumbnail-1.jpg"
+              width="176px"
+            />
+          </div>
+          <div
+            class="sc-fujznN hEJSXn"
+            data-testid="grid-image-1"
+          >
+            <img
+              alt="product 2"
+              height="176px"
+              src="thumbnail-2.jpg"
+              width="176px"
+            />
+          </div>
+          <div
+            class="sc-fujznN hEJSXn"
+            data-testid="grid-image-2"
+          >
+            <img
+              alt="product 3"
+              height="176px"
+              src="thumbnail-3.jpg"
+              width="176px"
+            />
+          </div>
+          <div
+            class="sc-fujznN hEJSXn"
+            data-testid="grid-image-3"
+          >
+            <img
+              alt="product 4"
+              height="176px"
+              src="thumbnail-4.jpg"
+              width="176px"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+`;

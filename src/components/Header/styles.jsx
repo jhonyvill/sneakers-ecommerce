@@ -14,7 +14,7 @@ export const Container = styled.header`
   @media (max-width: ${({ theme }) => theme.screen.tablet}) {
     gap: 1rem;
 
-    & div{
+    & section[aria-label="carrinho de compras"]{
       order: 2;
     }
   }

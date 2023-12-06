@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HeaderNav /> snapshots should match snapshot 1`] = `
+<nav
+  class="sc-bdnyFh yqnvy"
+>
+  <ul
+    class="sc-gtsqUy exjatf false false"
+    data-testid="nav-list"
+  >
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Collections
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Men
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Women
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        About
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Contact
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`<HeaderNav /> snapshots should match snapshot small screen 1`] = `
+<nav
+  class="sc-bdnyFh yqnvy"
+>
+  <button
+    aria-expanded="false"
+    aria-label="menu"
+    class="sc-hKFymg iXpSSQ"
+  >
+    <icon-mock
+      data-testid="menu-svg"
+    />
+  </button>
+  <ul
+    class="sc-gtsqUy exjatf smallScreen false"
+    data-testid="nav-list"
+  >
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Collections
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Men
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Women
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        About
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Contact
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`<HeaderNav /> snapshots should match snapshot small screen and menu active 1`] = `
+<nav
+  class="sc-bdnyFh yqnvy"
+>
+  <button
+    aria-expanded="true"
+    aria-label="menu"
+    class="sc-hKFymg iXpSSQ"
+  >
+    <icon-mock
+      data-testid="close-svg"
+    />
+  </button>
+  <ul
+    class="sc-gtsqUy exjatf smallScreen menuActive"
+    data-testid="nav-list"
+  >
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Collections
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Men
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Women
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        About
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Contact
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
+
+exports[`<HeaderNav /> snapshots should match snapshot when not small screen 1`] = `
+<nav
+  class="sc-bdnyFh yqnvy"
+>
+  <ul
+    class="sc-gtsqUy exjatf false false"
+    data-testid="nav-list"
+  >
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Collections
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Men
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Women
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        About
+      </a>
+    </li>
+    <li
+      class="sc-dlniIP bfDzoH"
+    >
+      <a
+        href="#"
+      >
+        Contact
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

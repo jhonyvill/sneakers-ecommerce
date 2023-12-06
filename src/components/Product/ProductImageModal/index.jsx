@@ -6,9 +6,9 @@ import ProductImages from "../ProductImages";
 
 const ProductImageModal = ({ images, handleModalActive }) => {
   return (
-    <S.Container>
+    <S.Container aria-label="modal imagens do produto">
       <S.Modal>
-        <S.CloseButton onClick={() => handleModalActive(false)}>
+        <S.CloseButton data-testid='close-button' onClick={() => handleModalActive(false)}>
           <CloseSvg />
         </S.CloseButton>
 
@@ -25,8 +25,8 @@ const ProductImageModal = ({ images, handleModalActive }) => {
 };
 
 ProductImageModal.protoTypes = {
-  images: PropTypes.array,
-  handleModalActive: PropTypes.func,
+  images: PropTypes.array.isRequired,
+  handleModalActive: PropTypes.func.isRequired,
 };
 
 export default ProductImageModal;

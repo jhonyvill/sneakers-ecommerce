@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CartItem /> snapshots should match snapshot 1`] = `
+<div
+  class="sc-bdnyFh pLIRS"
+>
+  <img
+    alt="product 1"
+    class="sc-gtsqUy jZBTiq"
+    height="176px"
+    src="thumbnail-1.jpg"
+    width="176px"
+  />
+  <h2
+    class="sc-dlniIP kFRgxY"
+  >
+    title mock
+  </h2>
+  <div
+    class="sc-hKFymg ghPfXa"
+  >
+    <span>
+      $125.00 x 2
+    </span>
+    <span
+      class="sc-eCAqax dTyMAG"
+      data-testid="total-price"
+    >
+      $
+      250.00
+    </span>
+  </div>
+  <button
+    aria-label="deletar item"
+    class="sc-jSFipO ijwKhL"
+  >
+    <icon-mock
+      data-testid="trash-svg"
+    />
+  </button>
+</div>
+`;

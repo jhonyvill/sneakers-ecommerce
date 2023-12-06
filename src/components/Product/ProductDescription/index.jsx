@@ -4,10 +4,10 @@ import { useProductPrice } from "../../../hooks/useProductPrice";
 
 const ProductDescription = ({ product }) => {
   const { price, finalPrice, discountPercent, hasDiscount } =
-    useProductPrice(product);
+    useProductPrice(product.price, product.discount);
 
   return (
-    <S.Container aria-label="Descrição do produto">
+    <S.Container aria-label="descrição do produto">
       <S.Brand>{product.brand}</S.Brand>
       <S.Title>{product.title}</S.Title>
       <S.Description>{product.description}</S.Description>

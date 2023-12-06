@@ -6,7 +6,7 @@ import { useCart } from "../../../../../hooks/useCart";
 import PropTypes from "prop-types";
 
 const CartItem = ({ item }) => {
-  const { finalPrice, getTotalItemPrice } = useProductPrice(item.product);
+  const { finalPrice, getTotalItemPrice } = useProductPrice(item.product.price, item.product.discount);
   const totalItemPrice = getTotalItemPrice(item.quantity);
   const { removeCartProduct } = useCart();
 
@@ -21,13 +21,13 @@ const CartItem = ({ item }) => {
       <S.Title>{item.product.title}</S.Title>
       <S.PriceContainer>
         <span>{`$${finalPrice} x ${item.quantity}`}</span>
-        <S.TotalPrice>${totalItemPrice}</S.TotalPrice>
+        <S.TotalPrice data-testid="total-price">${totalItemPrice}</S.TotalPrice>
       </S.PriceContainer>
       <S.DeleteButton
         onClick={() => removeCartProduct(item.product.id)}
         aria-label="deletar item"
       >
-        <TrashSvg />
+        <TrashSvg data-testid="trash-svg"/>
       </S.DeleteButton>
     </S.Item>
   );

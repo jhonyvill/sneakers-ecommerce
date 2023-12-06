@@ -5,11 +5,11 @@ import PropTypes from "prop-types";
 import CartItem from "./CartItem";
 import Button from "../../../Utils/Button";
 
-const CartModal = ({ cartRef, closeCartModal, handleCheckout, hasItems }) => {
+const CartModal = ({ cartRef, isModalOpen, handleCheckout, hasItems }) => {
   const { cartState } = useContext(CartContext);
 
   function handleClickOutside(event) {
-    if (!cartRef.current.contains(event.target)) closeCartModal();
+    if (!cartRef.current.contains(event.target)) isModalOpen(false);
   }
 
   useEffect(() => {
