@@ -126,3 +126,5 @@ Em seguida, basta abrir no navegador de sua preferência o link fornecido no ter
 - React
 - Vite
 - Styled-Components
+- Jest
+- Testing Library
