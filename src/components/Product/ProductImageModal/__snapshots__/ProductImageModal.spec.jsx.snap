@@ -3,58 +3,58 @@
 exports[`<ProductImageModal /> snapshots should match snapshot 1`] = `
 <section
   aria-label="modal imagens do produto"
-  class="sc-bdnyFh clwfon"
+  class="styles__Container-sc-tc5yrj-0 iYchpi"
 >
   <div
-    class="sc-gtsqUy bLqwoc"
+    class="styles__Modal-sc-tc5yrj-1 fuToiU"
   >
     <button
-      class="sc-hKFymg cJNBDr"
+      class="styles__CloseButton-sc-tc5yrj-3 fscaYl"
       data-testid="close-button"
     >
       <icon-mock />
     </button>
     <div
-      class="sc-dlniIP byVjyn"
+      class="styles__ImageContainer-sc-tc5yrj-2 hlTyuA"
     >
       <section
         aria-label="imagens do produto"
-        class="sc-eCAqax hDflWt"
+        class="styles__Container-sc-1rfz8de-0 cjexoL"
       >
         <div
-          class="sc-jSFipO jrafLG"
+          class="styles__FeaturedImageContainer-sc-1rfz8de-1 hkalnS"
           data-testid="container-featured-image"
         >
           <img
             alt="product 1"
-            class="sc-gKAaef bMgamR"
+            class="styles__FeaturedImage-sc-1rfz8de-2 hLfEin"
             data-testid="featured-image"
             height="1000px"
             src="image-1.jpg"
             width="1000px"
           />
           <div
-            class="sc-pNWRh ckRWKm"
+            class="styles__ButtonWrapper-sc-1rfz8de-5 hFyXwb"
           >
             <button
               aria-label="imagem anterior"
-              class="sc-jrsKJM sc-kEqXeH loeQiw dXunnj"
+              class="styles__ModalButton-sc-1rfz8de-6 styles__PreviousButton-sc-1rfz8de-7 bobShG kxWovx"
             >
               <icon-mock />
             </button>
             <button
               aria-label="próxima imagem"
-              class="sc-jrsKJM sc-iqAbyq loeQiw jevpNi"
+              class="styles__ModalButton-sc-1rfz8de-6 styles__NextButton-sc-1rfz8de-8 bobShG gUtcMk"
             >
               <icon-mock />
             </button>
           </div>
         </div>
         <div
-          class="sc-iCoHzw kKvUfO"
+          class="styles__ImagesGrid-sc-1rfz8de-3 gtpYQD"
         >
           <div
-            class="sc-fujznN hEJSXn active"
+            class="styles__Image-sc-1rfz8de-4 gGfERl active"
             data-testid="grid-image-0"
           >
             <img
@@ -65,7 +65,7 @@ exports[`<ProductImageModal /> snapshots should match snapshot 1`] = `
             />
           </div>
           <div
-            class="sc-fujznN hEJSXn"
+            class="styles__Image-sc-1rfz8de-4 gGfERl"
             data-testid="grid-image-1"
           >
             <img
@@ -76,7 +76,7 @@ exports[`<ProductImageModal /> snapshots should match snapshot 1`] = `
             />
           </div>
           <div
-            class="sc-fujznN hEJSXn"
+            class="styles__Image-sc-1rfz8de-4 gGfERl"
             data-testid="grid-image-2"
           >
             <img
@@ -87,7 +87,7 @@ exports[`<ProductImageModal /> snapshots should match snapshot 1`] = `
             />
           </div>
           <div
-            class="sc-fujznN hEJSXn"
+            class="styles__Image-sc-1rfz8de-4 gGfERl"
             data-testid="grid-image-3"
           >
             <img

@@ -3,44 +3,44 @@
 exports[`<ProductDescription /> snapshots should match snapshot 1`] = `
 <section
   aria-label="descrição do produto"
-  class="sc-bdnyFh dlhKug"
+  class="styles__Container-sc-ypft3n-0 hhjPNM"
 >
   <p
-    class="sc-gtsqUy cHGXaI"
+    class="styles__Brand-sc-ypft3n-1 eBdmJx"
   >
     brand mock
   </p>
   <h1
-    class="sc-dlniIP hnpDyv"
+    class="styles__Title-sc-ypft3n-2 kFUCun"
   >
     title mock
   </h1>
   <p
-    class="sc-hKFymg kgwXvP"
+    class="styles__Description-sc-ypft3n-3 jIbbAQ"
   >
     description mock
   </p>
   <div
-    class="sc-eCAqax hWGQVW"
+    class="styles__PriceContainer-sc-ypft3n-4 jUenDh"
   >
     <span
-      class="sc-jSFipO foojKQ"
+      class="styles__FinalPriceContainer-sc-ypft3n-5 hXifzc"
     >
       <span
-        class="sc-gKAaef iKCHHJ"
+        class="styles__FinalPrice-sc-ypft3n-6 cInfIl"
       >
         $
         125.00
       </span>
       <span
-        class="sc-iCoHzw ixzhAG"
+        class="styles__Discount-sc-ypft3n-7 cyFKTa"
       >
         50
         %
       </span>
     </span>
     <p
-      class="sc-fujznN joVKDY"
+      class="styles__Price-sc-ypft3n-8 gNjCoe"
     >
       $
       250.00
@@ -52,25 +52,25 @@ exports[`<ProductDescription /> snapshots should match snapshot 1`] = `
 exports[`<ProductDescription /> snapshots should match snapshot of product description without discount 1`] = `
 <section
   aria-label="descrição do produto"
-  class="sc-bdnyFh dlhKug"
+  class="styles__Container-sc-ypft3n-0 hhjPNM"
 >
   <p
-    class="sc-gtsqUy cHGXaI"
+    class="styles__Brand-sc-ypft3n-1 eBdmJx"
   >
     brand mock
   </p>
   <h1
-    class="sc-dlniIP hnpDyv"
+    class="styles__Title-sc-ypft3n-2 kFUCun"
   >
     title mock
   </h1>
   <p
-    class="sc-hKFymg kgwXvP"
+    class="styles__Description-sc-ypft3n-3 jIbbAQ"
   >
     description mock
   </p>
   <span
-    class="sc-gKAaef iKCHHJ"
+    class="styles__FinalPrice-sc-ypft3n-6 cInfIl"
   >
     $
     250.00
