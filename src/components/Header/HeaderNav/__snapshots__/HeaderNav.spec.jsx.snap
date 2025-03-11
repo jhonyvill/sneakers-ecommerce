@@ -2,14 +2,14 @@
 
 exports[`<HeaderNav /> snapshots should match snapshot 1`] = `
 <nav
-  class="sc-bdnyFh yqnvy"
+  class="styles__Container-sc-ljilrx-0 bkkmpr"
 >
   <ul
-    class="sc-gtsqUy exjatf false false"
+    class="styles__NavLinks-sc-ljilrx-1 ehtfwm false false"
     data-testid="nav-list"
   >
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -18,7 +18,7 @@ exports[`<HeaderNav /> snapshots should match snapshot 1`] = `
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -27,7 +27,7 @@ exports[`<HeaderNav /> snapshots should match snapshot 1`] = `
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -36,7 +36,7 @@ exports[`<HeaderNav /> snapshots should match snapshot 1`] = `
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -45,7 +45,7 @@ exports[`<HeaderNav /> snapshots should match snapshot 1`] = `
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -59,23 +59,23 @@ exports[`<HeaderNav /> snapshots should match snapshot 1`] = `
 
 exports[`<HeaderNav /> snapshots should match snapshot small screen 1`] = `
 <nav
-  class="sc-bdnyFh yqnvy"
+  class="styles__Container-sc-ljilrx-0 bkkmpr"
 >
   <button
     aria-expanded="false"
     aria-label="menu"
-    class="sc-hKFymg iXpSSQ"
+    class="styles__MenuButton-sc-ljilrx-3 cPTOAB"
   >
     <icon-mock
       data-testid="menu-svg"
     />
   </button>
   <ul
-    class="sc-gtsqUy exjatf smallScreen false"
+    class="styles__NavLinks-sc-ljilrx-1 ehtfwm smallScreen false"
     data-testid="nav-list"
   >
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -84,7 +84,7 @@ exports[`<HeaderNav /> snapshots should match snapshot small screen 1`] = `
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -93,7 +93,7 @@ exports[`<HeaderNav /> snapshots should match snapshot small screen 1`] = `
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -102,7 +102,7 @@ exports[`<HeaderNav /> snapshots should match snapshot small screen 1`] = `
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -111,7 +111,7 @@ exports[`<HeaderNav /> snapshots should match snapshot small screen 1`] = `
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -125,23 +125,23 @@ exports[`<HeaderNav /> snapshots should match snapshot small screen 1`] = `
 
 exports[`<HeaderNav /> snapshots should match snapshot small screen and menu active 1`] = `
 <nav
-  class="sc-bdnyFh yqnvy"
+  class="styles__Container-sc-ljilrx-0 bkkmpr"
 >
   <button
     aria-expanded="true"
     aria-label="menu"
-    class="sc-hKFymg iXpSSQ"
+    class="styles__MenuButton-sc-ljilrx-3 cPTOAB"
   >
     <icon-mock
       data-testid="close-svg"
     />
   </button>
   <ul
-    class="sc-gtsqUy exjatf smallScreen menuActive"
+    class="styles__NavLinks-sc-ljilrx-1 ehtfwm smallScreen menuActive"
     data-testid="nav-list"
   >
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -150,7 +150,7 @@ exports[`<HeaderNav /> snapshots should match snapshot small screen and menu act
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -159,7 +159,7 @@ exports[`<HeaderNav /> snapshots should match snapshot small screen and menu act
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -168,7 +168,7 @@ exports[`<HeaderNav /> snapshots should match snapshot small screen and menu act
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -177,7 +177,7 @@ exports[`<HeaderNav /> snapshots should match snapshot small screen and menu act
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -191,14 +191,14 @@ exports[`<HeaderNav /> snapshots should match snapshot small screen and menu act
 
 exports[`<HeaderNav /> snapshots should match snapshot when not small screen 1`] = `
 <nav
-  class="sc-bdnyFh yqnvy"
+  class="styles__Container-sc-ljilrx-0 bkkmpr"
 >
   <ul
-    class="sc-gtsqUy exjatf false false"
+    class="styles__NavLinks-sc-ljilrx-1 ehtfwm false false"
     data-testid="nav-list"
   >
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -207,7 +207,7 @@ exports[`<HeaderNav /> snapshots should match snapshot when not small screen 1`]
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -216,7 +216,7 @@ exports[`<HeaderNav /> snapshots should match snapshot when not small screen 1`]
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -225,7 +225,7 @@ exports[`<HeaderNav /> snapshots should match snapshot when not small screen 1`]
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"
@@ -234,7 +234,7 @@ exports[`<HeaderNav /> snapshots should match snapshot when not small screen 1`]
       </a>
     </li>
     <li
-      class="sc-dlniIP bfDzoH"
+      class="styles__StyledItem-sc-ljilrx-2 gRnFfe"
     >
       <a
         href="#"

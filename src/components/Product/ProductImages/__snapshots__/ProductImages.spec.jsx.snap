@@ -3,15 +3,15 @@
 exports[`<ProductImages /> snapshots should match snapshot 1`] = `
 <section
   aria-label="imagens do produto"
-  class="sc-bdnyFh fPwIWZ"
+  class="styles__Container-sc-1rfz8de-0 cjexoL"
 >
   <div
-    class="sc-gtsqUy ihcXiq"
+    class="styles__FeaturedImageContainer-sc-1rfz8de-1 hkalnS"
     data-testid="container-featured-image"
   >
     <img
       alt="product 1"
-      class="sc-dlniIP iqruGc"
+      class="styles__FeaturedImage-sc-1rfz8de-2 hLfEin"
       data-testid="featured-image"
       height="1000px"
       src="image-1.jpg"
@@ -19,10 +19,10 @@ exports[`<ProductImages /> snapshots should match snapshot 1`] = `
     />
   </div>
   <div
-    class="sc-hKFymg ljGcIY"
+    class="styles__ImagesGrid-sc-1rfz8de-3 gtpYQD"
   >
     <div
-      class="sc-eCAqax ddLQhb active"
+      class="styles__Image-sc-1rfz8de-4 gGfERl active"
       data-testid="grid-image-0"
     >
       <img
@@ -33,7 +33,7 @@ exports[`<ProductImages /> snapshots should match snapshot 1`] = `
       />
     </div>
     <div
-      class="sc-eCAqax ddLQhb"
+      class="styles__Image-sc-1rfz8de-4 gGfERl"
       data-testid="grid-image-1"
     >
       <img
@@ -44,7 +44,7 @@ exports[`<ProductImages /> snapshots should match snapshot 1`] = `
       />
     </div>
     <div
-      class="sc-eCAqax ddLQhb"
+      class="styles__Image-sc-1rfz8de-4 gGfERl"
       data-testid="grid-image-2"
     >
       <img
@@ -55,7 +55,7 @@ exports[`<ProductImages /> snapshots should match snapshot 1`] = `
       />
     </div>
     <div
-      class="sc-eCAqax ddLQhb"
+      class="styles__Image-sc-1rfz8de-4 gGfERl"
       data-testid="grid-image-3"
     >
       <img
@@ -72,42 +72,42 @@ exports[`<ProductImages /> snapshots should match snapshot 1`] = `
 exports[`<ProductImages /> snapshots should match snapshot when modal active 1`] = `
 <section
   aria-label="imagens do produto"
-  class="sc-bdnyFh fPwIWZ"
+  class="styles__Container-sc-1rfz8de-0 cjexoL"
 >
   <div
-    class="sc-gtsqUy ihcXiq"
+    class="styles__FeaturedImageContainer-sc-1rfz8de-1 hkalnS"
     data-testid="container-featured-image"
   >
     <img
       alt="product 1"
-      class="sc-dlniIP iqruGc"
+      class="styles__FeaturedImage-sc-1rfz8de-2 hLfEin"
       data-testid="featured-image"
       height="1000px"
       src="image-1.jpg"
       width="1000px"
     />
     <div
-      class="sc-jSFipO cYlmsE"
+      class="styles__ButtonWrapper-sc-1rfz8de-5 hFyXwb"
     >
       <button
         aria-label="imagem anterior"
-        class="sc-gKAaef sc-iCoHzw jGlZmE jPrXqN"
+        class="styles__ModalButton-sc-1rfz8de-6 styles__PreviousButton-sc-1rfz8de-7 bobShG kxWovx"
       >
         <icon-mock />
       </button>
       <button
         aria-label="próxima imagem"
-        class="sc-gKAaef sc-fujznN jGlZmE gzxJie"
+        class="styles__ModalButton-sc-1rfz8de-6 styles__NextButton-sc-1rfz8de-8 bobShG gUtcMk"
       >
         <icon-mock />
       </button>
     </div>
   </div>
   <div
-    class="sc-hKFymg ljGcIY"
+    class="styles__ImagesGrid-sc-1rfz8de-3 gtpYQD"
   >
     <div
-      class="sc-eCAqax ddLQhb active"
+      class="styles__Image-sc-1rfz8de-4 gGfERl active"
       data-testid="grid-image-0"
     >
       <img
@@ -118,7 +118,7 @@ exports[`<ProductImages /> snapshots should match snapshot when modal active 1`]
       />
     </div>
     <div
-      class="sc-eCAqax ddLQhb"
+      class="styles__Image-sc-1rfz8de-4 gGfERl"
       data-testid="grid-image-1"
     >
       <img
@@ -129,7 +129,7 @@ exports[`<ProductImages /> snapshots should match snapshot when modal active 1`]
       />
     </div>
     <div
-      class="sc-eCAqax ddLQhb"
+      class="styles__Image-sc-1rfz8de-4 gGfERl"
       data-testid="grid-image-2"
     >
       <img
@@ -140,7 +140,7 @@ exports[`<ProductImages /> snapshots should match snapshot when modal active 1`]
       />
     </div>
     <div
-      class="sc-eCAqax ddLQhb"
+      class="styles__Image-sc-1rfz8de-4 gGfERl"
       data-testid="grid-image-3"
     >
       <img
@@ -157,42 +157,42 @@ exports[`<ProductImages /> snapshots should match snapshot when modal active 1`]
 exports[`<ProductImages /> snapshots should match snapshot when modal active and small screen 1`] = `
 <section
   aria-label="imagens do produto"
-  class="sc-bdnyFh fPwIWZ"
+  class="styles__Container-sc-1rfz8de-0 cjexoL"
 >
   <div
-    class="sc-gtsqUy ihcXiq small"
+    class="styles__FeaturedImageContainer-sc-1rfz8de-1 hkalnS small"
     data-testid="container-featured-image"
   >
     <img
       alt="product 1"
-      class="sc-dlniIP iqruGc"
+      class="styles__FeaturedImage-sc-1rfz8de-2 hLfEin"
       data-testid="featured-image"
       height="1000px"
       src="image-1.jpg"
       width="1000px"
     />
     <div
-      class="sc-jSFipO cYlmsE"
+      class="styles__ButtonWrapper-sc-1rfz8de-5 hFyXwb"
     >
       <button
         aria-label="imagem anterior"
-        class="sc-gKAaef sc-iCoHzw jGlZmE jPrXqN"
+        class="styles__ModalButton-sc-1rfz8de-6 styles__PreviousButton-sc-1rfz8de-7 bobShG kxWovx"
       >
         <icon-mock />
       </button>
       <button
         aria-label="próxima imagem"
-        class="sc-gKAaef sc-fujznN jGlZmE gzxJie"
+        class="styles__ModalButton-sc-1rfz8de-6 styles__NextButton-sc-1rfz8de-8 bobShG gUtcMk"
       >
         <icon-mock />
       </button>
     </div>
   </div>
   <div
-    class="sc-hKFymg ljGcIY"
+    class="styles__ImagesGrid-sc-1rfz8de-3 gtpYQD"
   >
     <div
-      class="sc-eCAqax ddLQhb active"
+      class="styles__Image-sc-1rfz8de-4 gGfERl active"
       data-testid="grid-image-0"
     >
       <img
@@ -203,7 +203,7 @@ exports[`<ProductImages /> snapshots should match snapshot when modal active and
       />
     </div>
     <div
-      class="sc-eCAqax ddLQhb"
+      class="styles__Image-sc-1rfz8de-4 gGfERl"
       data-testid="grid-image-1"
     >
       <img
@@ -214,7 +214,7 @@ exports[`<ProductImages /> snapshots should match snapshot when modal active and
       />
     </div>
     <div
-      class="sc-eCAqax ddLQhb"
+      class="styles__Image-sc-1rfz8de-4 gGfERl"
       data-testid="grid-image-2"
     >
       <img
@@ -225,7 +225,7 @@ exports[`<ProductImages /> snapshots should match snapshot when modal active and
       />
     </div>
     <div
-      class="sc-eCAqax ddLQhb"
+      class="styles__Image-sc-1rfz8de-4 gGfERl"
       data-testid="grid-image-3"
     >
       <img
@@ -242,42 +242,42 @@ exports[`<ProductImages /> snapshots should match snapshot when modal active and
 exports[`<ProductImages /> snapshots should match snapshot when small screen 1`] = `
 <section
   aria-label="imagens do produto"
-  class="sc-bdnyFh fPwIWZ"
+  class="styles__Container-sc-1rfz8de-0 cjexoL"
 >
   <div
-    class="sc-gtsqUy ihcXiq"
+    class="styles__FeaturedImageContainer-sc-1rfz8de-1 hkalnS"
     data-testid="container-featured-image"
   >
     <img
       alt="product 1"
-      class="sc-dlniIP iqruGc"
+      class="styles__FeaturedImage-sc-1rfz8de-2 hLfEin"
       data-testid="featured-image"
       height="1000px"
       src="image-1.jpg"
       width="1000px"
     />
     <div
-      class="sc-jSFipO cYlmsE"
+      class="styles__ButtonWrapper-sc-1rfz8de-5 hFyXwb"
     >
       <button
         aria-label="imagem anterior"
-        class="sc-gKAaef sc-iCoHzw jGlZmE jPrXqN"
+        class="styles__ModalButton-sc-1rfz8de-6 styles__PreviousButton-sc-1rfz8de-7 bobShG kxWovx"
       >
         <icon-mock />
       </button>
       <button
         aria-label="próxima imagem"
-        class="sc-gKAaef sc-fujznN jGlZmE gzxJie"
+        class="styles__ModalButton-sc-1rfz8de-6 styles__NextButton-sc-1rfz8de-8 bobShG gUtcMk"
       >
         <icon-mock />
       </button>
     </div>
   </div>
   <div
-    class="sc-hKFymg ljGcIY"
+    class="styles__ImagesGrid-sc-1rfz8de-3 gtpYQD"
   >
     <div
-      class="sc-eCAqax ddLQhb active"
+      class="styles__Image-sc-1rfz8de-4 gGfERl active"
       data-testid="grid-image-0"
     >
       <img
@@ -288,7 +288,7 @@ exports[`<ProductImages /> snapshots should match snapshot when small screen 1`]
       />
     </div>
     <div
-      class="sc-eCAqax ddLQhb"
+      class="styles__Image-sc-1rfz8de-4 gGfERl"
       data-testid="grid-image-1"
     >
       <img
@@ -299,7 +299,7 @@ exports[`<ProductImages /> snapshots should match snapshot when small screen 1`]
       />
     </div>
     <div
-      class="sc-eCAqax ddLQhb"
+      class="styles__Image-sc-1rfz8de-4 gGfERl"
       data-testid="grid-image-2"
     >
       <img
@@ -310,7 +310,7 @@ exports[`<ProductImages /> snapshots should match snapshot when small screen 1`]
       />
     </div>
     <div
-      class="sc-eCAqax ddLQhb"
+      class="styles__Image-sc-1rfz8de-4 gGfERl"
       data-testid="grid-image-3"
     >
       <img

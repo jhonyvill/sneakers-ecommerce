@@ -2,7 +2,7 @@
 
 exports[`<Button /> snapshots should match snapshot 1`] = `
 <button
-  class="sc-bdnyFh kQzDPd"
+  class="styles__StyledButton-sc-1csa66j-0 hmYbLP"
 >
   Add to cart
 </button>

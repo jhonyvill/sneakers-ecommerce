@@ -3,11 +3,11 @@
 exports[`<Counter /> snapshots should match snapshot 1`] = `
 <section
   aria-label="selecione a quantidade de itens"
-  class="sc-bdnyFh fylSRC"
+  class="styles__Container-sc-6vyuvp-0 klSogO"
 >
   <button
     aria-label="menos"
-    class="sc-gtsqUy hyajVU"
+    class="styles__CounterButton-sc-6vyuvp-1 hNfiSo"
   >
     <icon-mock />
   </button>
@@ -18,7 +18,7 @@ exports[`<Counter /> snapshots should match snapshot 1`] = `
   </span>
   <button
     aria-label="mais"
-    class="sc-gtsqUy hyajVU"
+    class="styles__CounterButton-sc-6vyuvp-1 hNfiSo"
   >
     <icon-mock />
   </button>
