@@ -11,7 +11,7 @@ const Header = () => {
   const [profileModalOpen, setProfileModalOpen] = useState(false);
   return (
     <S.Container>
-      <S.Logo href="#" aria-label="Home">
+      <S.Logo href="/" aria-label="Home">
         <LogoSvg data-testid="logo-svg"/>
       </S.Logo>
 

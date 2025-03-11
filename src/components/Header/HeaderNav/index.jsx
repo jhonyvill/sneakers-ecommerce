@@ -29,19 +29,19 @@ const HeaderNav = () => {
         className={`${smallScreen && "smallScreen"} ${isMenuActive && "menuActive"}`}
       >
         <S.StyledItem>
-          <a href="#">Collections</a>
+          <a href="/collections">Collections</a>
         </S.StyledItem>
         <S.StyledItem>
-          <a href="#">Men</a>
+          <a href="/men">Men</a>
         </S.StyledItem>
         <S.StyledItem>
-          <a href="#">Women</a>
+          <a href="/women">Women</a>
         </S.StyledItem>
         <S.StyledItem>
-          <a href="#">About</a>
+          <a href="/about">About</a>
         </S.StyledItem>
         <S.StyledItem>
-          <a href="#">Contact</a>
+          <a href="/contact">Contact</a>
         </S.StyledItem>
       </S.NavLinks>
     </S.Container>

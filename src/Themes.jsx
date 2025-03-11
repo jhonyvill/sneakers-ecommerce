@@ -19,6 +19,7 @@ const theme = {
     l: '1.4rem',
     xl: '1.8rem',
     xxl: '2.6rem',
+    xxxl: '5rem',
   },
   screen: {
     largeNotebook: "1400px",

@@ -22,7 +22,6 @@ import styled from "styled-components";
  export const ModalDescription = styled.div`
    width: 100%;
    height: 100%;
-   // min-width: 8.5rem;
    padding: 1rem 0;
    font-weight: 700;
    font-size: ${({ theme }) => theme.sizes.s};
