@@ -3,45 +3,45 @@
 exports[`<CartModal /> snapshots should match snapshot 1`] = `
 <section
   aria-label="modal carrinho de compras"
-  class="sc-bdnyFh ieuDOa"
+  class="styles__Modal-sc-1muh66y-0 joXRfi"
 >
   <div
-    class="sc-gtsqUy bMTtzH"
+    class="styles__Title-sc-1muh66y-1 mEFUd"
   >
     <h2>
       Cart
     </h2>
   </div>
   <div
-    class="sc-dlniIP kWsVGs"
+    class="styles__Content-sc-1muh66y-2 bUNORX"
   >
     <ul
-      class="sc-hKFymg jvPhoA"
+      class="styles__Items-sc-1muh66y-3 jSlPFn"
     >
       <li>
         <div
-          class="sc-eCAqax cCMqVm"
+          class="styles__Item-sc-1eal0cm-0 bCjpZ"
         >
           <img
             alt="product 1"
-            class="sc-jSFipO dNdahi"
+            class="styles__Photo-sc-1eal0cm-1 cZzmFX"
             height="176px"
             src="thumbnail-1.jpg"
             width="176px"
           />
           <h2
-            class="sc-gKAaef dLbczZ"
+            class="styles__Title-sc-1eal0cm-2 dOavNX"
           >
             title mock
           </h2>
           <div
-            class="sc-iCoHzw gtVcVg"
+            class="styles__PriceContainer-sc-1eal0cm-3 dGMGIu"
           >
             <span>
               $125.00 x 1
             </span>
             <span
-              class="sc-fujznN iuzEom"
+              class="styles__TotalPrice-sc-1eal0cm-4 hJISjn"
               data-testid="total-price"
             >
               $
@@ -50,7 +50,7 @@ exports[`<CartModal /> snapshots should match snapshot 1`] = `
           </div>
           <button
             aria-label="deletar item"
-            class="sc-pNWRh cqTcdp"
+            class="styles__DeleteButton-sc-1eal0cm-5 fCBTaV"
           >
             <icon-mock
               data-testid="trash-svg"
@@ -60,28 +60,28 @@ exports[`<CartModal /> snapshots should match snapshot 1`] = `
       </li>
       <li>
         <div
-          class="sc-eCAqax cCMqVm"
+          class="styles__Item-sc-1eal0cm-0 bCjpZ"
         >
           <img
             alt="product 1"
-            class="sc-jSFipO dNdahi"
+            class="styles__Photo-sc-1eal0cm-1 cZzmFX"
             height="176px"
             src="thumbnail-1.jpg"
             width="176px"
           />
           <h2
-            class="sc-gKAaef dLbczZ"
+            class="styles__Title-sc-1eal0cm-2 dOavNX"
           >
             title mock
           </h2>
           <div
-            class="sc-iCoHzw gtVcVg"
+            class="styles__PriceContainer-sc-1eal0cm-3 dGMGIu"
           >
             <span>
               $125.00 x 1
             </span>
             <span
-              class="sc-fujznN iuzEom"
+              class="styles__TotalPrice-sc-1eal0cm-4 hJISjn"
               data-testid="total-price"
             >
               $
@@ -90,7 +90,7 @@ exports[`<CartModal /> snapshots should match snapshot 1`] = `
           </div>
           <button
             aria-label="deletar item"
-            class="sc-pNWRh cqTcdp"
+            class="styles__DeleteButton-sc-1eal0cm-5 fCBTaV"
           >
             <icon-mock
               data-testid="trash-svg"
@@ -101,7 +101,7 @@ exports[`<CartModal /> snapshots should match snapshot 1`] = `
     </ul>
     <button
       aria-label="finalizar compra"
-      class="sc-jrsKJM jabYbl"
+      class="styles__StyledButton-sc-1csa66j-0 hmYbLP"
     >
       Checkout
     </button>
@@ -112,17 +112,17 @@ exports[`<CartModal /> snapshots should match snapshot 1`] = `
 exports[`<CartModal /> snapshots should match snapshot when cart is empty 1`] = `
 <section
   aria-label="modal carrinho de compras"
-  class="sc-bdnyFh ieuDOa"
+  class="styles__Modal-sc-1muh66y-0 joXRfi"
 >
   <div
-    class="sc-gtsqUy bMTtzH"
+    class="styles__Title-sc-1muh66y-1 mEFUd"
   >
     <h2>
       Cart
     </h2>
   </div>
   <div
-    class="sc-dlniIP kWsVGs"
+    class="styles__Content-sc-1muh66y-2 bUNORX"
   >
     <p>
       Your cart is empty.

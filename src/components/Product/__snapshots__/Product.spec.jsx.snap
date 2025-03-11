@@ -2,22 +2,22 @@
 
 exports[`<Product /> snapshots should match snapshot 1`] = `
 <section
-  class="sc-bdnyFh fQRdBh"
+  class="styles__Container-sc-11z2e6s-0 cvKyIH"
 >
   <div
-    class="sc-gtsqUy gBoquZ"
+    class="styles__ImagesContainer-sc-11z2e6s-1 kTpCiU"
   >
     <section
       aria-label="imagens do produto"
-      class="sc-iCoHzw Uteby"
+      class="styles__Container-sc-1rfz8de-0 cjexoL"
     >
       <div
-        class="sc-fujznN bblVBs"
+        class="styles__FeaturedImageContainer-sc-1rfz8de-1 hkalnS"
         data-testid="container-featured-image"
       >
         <img
           alt="product 1"
-          class="sc-pNWRh iaSvUF"
+          class="styles__FeaturedImage-sc-1rfz8de-2 hLfEin"
           data-testid="featured-image"
           height="1000px"
           src="image-1.jpg"
@@ -25,10 +25,10 @@ exports[`<Product /> snapshots should match snapshot 1`] = `
         />
       </div>
       <div
-        class="sc-jrsKJM gKwwnN"
+        class="styles__ImagesGrid-sc-1rfz8de-3 gtpYQD"
       >
         <div
-          class="sc-kEqXeH jvhliy active"
+          class="styles__Image-sc-1rfz8de-4 gGfERl active"
           data-testid="grid-image-0"
         >
           <img
@@ -39,7 +39,7 @@ exports[`<Product /> snapshots should match snapshot 1`] = `
           />
         </div>
         <div
-          class="sc-kEqXeH jvhliy"
+          class="styles__Image-sc-1rfz8de-4 gGfERl"
           data-testid="grid-image-1"
         >
           <img
@@ -50,7 +50,7 @@ exports[`<Product /> snapshots should match snapshot 1`] = `
           />
         </div>
         <div
-          class="sc-kEqXeH jvhliy"
+          class="styles__Image-sc-1rfz8de-4 gGfERl"
           data-testid="grid-image-2"
         >
           <img
@@ -61,7 +61,7 @@ exports[`<Product /> snapshots should match snapshot 1`] = `
           />
         </div>
         <div
-          class="sc-kEqXeH jvhliy"
+          class="styles__Image-sc-1rfz8de-4 gGfERl"
           data-testid="grid-image-3"
         >
           <img
@@ -75,48 +75,48 @@ exports[`<Product /> snapshots should match snapshot 1`] = `
     </section>
   </div>
   <div
-    class="sc-dlniIP ktecEC"
+    class="styles__DetailsContainer-sc-11z2e6s-2 haQqEv"
   >
     <section
       aria-label="descrição do produto"
-      class="sc-bkbjWr bkLoeD"
+      class="styles__Container-sc-ypft3n-0 hhjPNM"
     >
       <p
-        class="sc-iemXqs gRWDTa"
+        class="styles__Brand-sc-ypft3n-1 eBdmJx"
       >
         brand-1
       </p>
       <h1
-        class="sc-dIvsgl hHGbOa"
+        class="styles__Title-sc-ypft3n-2 kFUCun"
       >
         title-1
       </h1>
       <p
-        class="sc-hHEhDq bdOHoR"
+        class="styles__Description-sc-ypft3n-3 jIbbAQ"
       >
         description-1
       </p>
       <div
-        class="sc-dlMCtj kXrjst"
+        class="styles__PriceContainer-sc-ypft3n-4 jUenDh"
       >
         <span
-          class="sc-kfYpNk jhnLmI"
+          class="styles__FinalPriceContainer-sc-ypft3n-5 hXifzc"
         >
           <span
-            class="sc-fKgKDd fpcmQb"
+            class="styles__FinalPrice-sc-ypft3n-6 cInfIl"
           >
             $
             5.00
           </span>
           <span
-            class="sc-bCwene cuiqbm"
+            class="styles__Discount-sc-ypft3n-7 cyFKTa"
           >
             50
             %
           </span>
         </span>
         <p
-          class="sc-iwaiBT fvToHb"
+          class="styles__Price-sc-ypft3n-8 gNjCoe"
         >
           $
           10.00
@@ -124,15 +124,15 @@ exports[`<Product /> snapshots should match snapshot 1`] = `
       </div>
     </section>
     <div
-      class="sc-hKFymg jkmLMr"
+      class="styles__ProductActionContainer-sc-11z2e6s-3 gMjTvO"
     >
       <section
         aria-label="selecione a quantidade de itens"
-        class="sc-jSFipO fTVKgw"
+        class="styles__Container-sc-6vyuvp-0 klSogO"
       >
         <button
           aria-label="menos"
-          class="sc-gKAaef jeScbK"
+          class="styles__CounterButton-sc-6vyuvp-1 hNfiSo"
         >
           <icon-mock />
         </button>
@@ -143,14 +143,14 @@ exports[`<Product /> snapshots should match snapshot 1`] = `
         </span>
         <button
           aria-label="mais"
-          class="sc-gKAaef jeScbK"
+          class="styles__CounterButton-sc-6vyuvp-1 hNfiSo"
         >
           <icon-mock />
         </button>
       </section>
       <button
         aria-labelledby="add-btn"
-        class="sc-eCAqax bfwZGh shadowActive"
+        class="styles__StyledButton-sc-1csa66j-0 hmYbLP shadowActive"
       >
         <icon-mock />
          
@@ -169,22 +169,22 @@ exports[`<Product /> snapshots should match snapshot when data is null 1`] = `nu
 
 exports[`<Product /> snapshots should match snapshot when modal active 1`] = `
 <section
-  class="sc-bdnyFh fQRdBh"
+  class="styles__Container-sc-11z2e6s-0 cvKyIH"
 >
   <div
-    class="sc-gtsqUy gBoquZ"
+    class="styles__ImagesContainer-sc-11z2e6s-1 kTpCiU"
   >
     <section
       aria-label="imagens do produto"
-      class="sc-iCoHzw Uteby"
+      class="styles__Container-sc-1rfz8de-0 cjexoL"
     >
       <div
-        class="sc-fujznN bblVBs"
+        class="styles__FeaturedImageContainer-sc-1rfz8de-1 hkalnS"
         data-testid="container-featured-image"
       >
         <img
           alt="product 1"
-          class="sc-pNWRh iaSvUF"
+          class="styles__FeaturedImage-sc-1rfz8de-2 hLfEin"
           data-testid="featured-image"
           height="1000px"
           src="image-1.jpg"
@@ -192,10 +192,10 @@ exports[`<Product /> snapshots should match snapshot when modal active 1`] = `
         />
       </div>
       <div
-        class="sc-jrsKJM gKwwnN"
+        class="styles__ImagesGrid-sc-1rfz8de-3 gtpYQD"
       >
         <div
-          class="sc-kEqXeH jvhliy active"
+          class="styles__Image-sc-1rfz8de-4 gGfERl active"
           data-testid="grid-image-0"
         >
           <img
@@ -206,7 +206,7 @@ exports[`<Product /> snapshots should match snapshot when modal active 1`] = `
           />
         </div>
         <div
-          class="sc-kEqXeH jvhliy"
+          class="styles__Image-sc-1rfz8de-4 gGfERl"
           data-testid="grid-image-1"
         >
           <img
@@ -217,7 +217,7 @@ exports[`<Product /> snapshots should match snapshot when modal active 1`] = `
           />
         </div>
         <div
-          class="sc-kEqXeH jvhliy"
+          class="styles__Image-sc-1rfz8de-4 gGfERl"
           data-testid="grid-image-2"
         >
           <img
@@ -228,7 +228,7 @@ exports[`<Product /> snapshots should match snapshot when modal active 1`] = `
           />
         </div>
         <div
-          class="sc-kEqXeH jvhliy"
+          class="styles__Image-sc-1rfz8de-4 gGfERl"
           data-testid="grid-image-3"
         >
           <img
@@ -242,48 +242,48 @@ exports[`<Product /> snapshots should match snapshot when modal active 1`] = `
     </section>
   </div>
   <div
-    class="sc-dlniIP ktecEC"
+    class="styles__DetailsContainer-sc-11z2e6s-2 haQqEv"
   >
     <section
       aria-label="descrição do produto"
-      class="sc-bkbjWr bkLoeD"
+      class="styles__Container-sc-ypft3n-0 hhjPNM"
     >
       <p
-        class="sc-iemXqs gRWDTa"
+        class="styles__Brand-sc-ypft3n-1 eBdmJx"
       >
         brand-1
       </p>
       <h1
-        class="sc-dIvsgl hHGbOa"
+        class="styles__Title-sc-ypft3n-2 kFUCun"
       >
         title-1
       </h1>
       <p
-        class="sc-hHEhDq bdOHoR"
+        class="styles__Description-sc-ypft3n-3 jIbbAQ"
       >
         description-1
       </p>
       <div
-        class="sc-dlMCtj kXrjst"
+        class="styles__PriceContainer-sc-ypft3n-4 jUenDh"
       >
         <span
-          class="sc-kfYpNk jhnLmI"
+          class="styles__FinalPriceContainer-sc-ypft3n-5 hXifzc"
         >
           <span
-            class="sc-fKgKDd fpcmQb"
+            class="styles__FinalPrice-sc-ypft3n-6 cInfIl"
           >
             $
             5.00
           </span>
           <span
-            class="sc-bCwene cuiqbm"
+            class="styles__Discount-sc-ypft3n-7 cyFKTa"
           >
             50
             %
           </span>
         </span>
         <p
-          class="sc-iwaiBT fvToHb"
+          class="styles__Price-sc-ypft3n-8 gNjCoe"
         >
           $
           10.00
@@ -291,15 +291,15 @@ exports[`<Product /> snapshots should match snapshot when modal active 1`] = `
       </div>
     </section>
     <div
-      class="sc-hKFymg jkmLMr"
+      class="styles__ProductActionContainer-sc-11z2e6s-3 gMjTvO"
     >
       <section
         aria-label="selecione a quantidade de itens"
-        class="sc-jSFipO fTVKgw"
+        class="styles__Container-sc-6vyuvp-0 klSogO"
       >
         <button
           aria-label="menos"
-          class="sc-gKAaef jeScbK"
+          class="styles__CounterButton-sc-6vyuvp-1 hNfiSo"
         >
           <icon-mock />
         </button>
@@ -310,14 +310,14 @@ exports[`<Product /> snapshots should match snapshot when modal active 1`] = `
         </span>
         <button
           aria-label="mais"
-          class="sc-gKAaef jeScbK"
+          class="styles__CounterButton-sc-6vyuvp-1 hNfiSo"
         >
           <icon-mock />
         </button>
       </section>
       <button
         aria-labelledby="add-btn"
-        class="sc-eCAqax bfwZGh shadowActive"
+        class="styles__StyledButton-sc-1csa66j-0 hmYbLP shadowActive"
       >
         <icon-mock />
          
@@ -331,58 +331,58 @@ exports[`<Product /> snapshots should match snapshot when modal active 1`] = `
   </div>
   <section
     aria-label="modal imagens do produto"
-    class="sc-ksltVi hxbWzb"
+    class="styles__Container-sc-tc5yrj-0 iYchpi"
   >
     <div
-      class="sc-hBMVwJ jZTGwZ"
+      class="styles__Modal-sc-tc5yrj-1 fuToiU"
     >
       <button
-        class="sc-fFSPgy cSaxlI"
+        class="styles__CloseButton-sc-tc5yrj-3 fscaYl"
         data-testid="close-button"
       >
         <icon-mock />
       </button>
       <div
-        class="sc-fnVZQs jTnscf"
+        class="styles__ImageContainer-sc-tc5yrj-2 hlTyuA"
       >
         <section
           aria-label="imagens do produto"
-          class="sc-iCoHzw Uteby"
+          class="styles__Container-sc-1rfz8de-0 cjexoL"
         >
           <div
-            class="sc-fujznN bblVBs"
+            class="styles__FeaturedImageContainer-sc-1rfz8de-1 hkalnS"
             data-testid="container-featured-image"
           >
             <img
               alt="product 1"
-              class="sc-pNWRh iaSvUF"
+              class="styles__FeaturedImage-sc-1rfz8de-2 hLfEin"
               data-testid="featured-image"
               height="1000px"
               src="image-1.jpg"
               width="1000px"
             />
             <div
-              class="sc-iqAbyq fSNvkK"
+              class="styles__ButtonWrapper-sc-1rfz8de-5 hFyXwb"
             >
               <button
                 aria-label="imagem anterior"
-                class="sc-crzpnZ sc-dItHI jGLZJs lowHbl"
+                class="styles__ModalButton-sc-1rfz8de-6 styles__PreviousButton-sc-1rfz8de-7 bobShG kxWovx"
               >
                 <icon-mock />
               </button>
               <button
                 aria-label="próxima imagem"
-                class="sc-crzpnZ sc-bqGGcD jGLZJs iqwyBN"
+                class="styles__ModalButton-sc-1rfz8de-6 styles__NextButton-sc-1rfz8de-8 bobShG gUtcMk"
               >
                 <icon-mock />
               </button>
             </div>
           </div>
           <div
-            class="sc-jrsKJM gKwwnN"
+            class="styles__ImagesGrid-sc-1rfz8de-3 gtpYQD"
           >
             <div
-              class="sc-kEqXeH jvhliy active"
+              class="styles__Image-sc-1rfz8de-4 gGfERl active"
               data-testid="grid-image-0"
             >
               <img
@@ -393,7 +393,7 @@ exports[`<Product /> snapshots should match snapshot when modal active 1`] = `
               />
             </div>
             <div
-              class="sc-kEqXeH jvhliy"
+              class="styles__Image-sc-1rfz8de-4 gGfERl"
               data-testid="grid-image-1"
             >
               <img
@@ -404,7 +404,7 @@ exports[`<Product /> snapshots should match snapshot when modal active 1`] = `
               />
             </div>
             <div
-              class="sc-kEqXeH jvhliy"
+              class="styles__Image-sc-1rfz8de-4 gGfERl"
               data-testid="grid-image-2"
             >
               <img
@@ -415,7 +415,7 @@ exports[`<Product /> snapshots should match snapshot when modal active 1`] = `
               />
             </div>
             <div
-              class="sc-kEqXeH jvhliy"
+              class="styles__Image-sc-1rfz8de-4 gGfERl"
               data-testid="grid-image-3"
             >
               <img

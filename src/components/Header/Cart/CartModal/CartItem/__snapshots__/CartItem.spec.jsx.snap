@@ -2,28 +2,28 @@
 
 exports[`<CartItem /> snapshots should match snapshot 1`] = `
 <div
-  class="sc-bdnyFh pLIRS"
+  class="styles__Item-sc-1eal0cm-0 bCjpZ"
 >
   <img
     alt="product 1"
-    class="sc-gtsqUy jZBTiq"
+    class="styles__Photo-sc-1eal0cm-1 cZzmFX"
     height="176px"
     src="thumbnail-1.jpg"
     width="176px"
   />
   <h2
-    class="sc-dlniIP kFRgxY"
+    class="styles__Title-sc-1eal0cm-2 dOavNX"
   >
     title mock
   </h2>
   <div
-    class="sc-hKFymg ghPfXa"
+    class="styles__PriceContainer-sc-1eal0cm-3 dGMGIu"
   >
     <span>
       $125.00 x 2
     </span>
     <span
-      class="sc-eCAqax dTyMAG"
+      class="styles__TotalPrice-sc-1eal0cm-4 hJISjn"
       data-testid="total-price"
     >
       $
@@ -32,7 +32,7 @@ exports[`<CartItem /> snapshots should match snapshot 1`] = `
   </div>
   <button
     aria-label="deletar item"
-    class="sc-jSFipO ijwKhL"
+    class="styles__DeleteButton-sc-1eal0cm-5 fCBTaV"
   >
     <icon-mock
       data-testid="trash-svg"

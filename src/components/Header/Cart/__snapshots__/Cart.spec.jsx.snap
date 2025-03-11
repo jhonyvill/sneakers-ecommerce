@@ -6,7 +6,7 @@ exports[`<Cart /> snapshots should match snapshot when cart is empty 1`] = `
 >
   <button
     aria-expanded="false"
-    class="sc-bdnyFh eQakMx"
+    class="styles__Cart-sc-33q7z1-0 cfnkFh"
   >
     <icon-mock
       data-testid="cart-svg"
@@ -21,13 +21,13 @@ exports[`<Cart /> snapshots should match snapshot when cart modal open 1`] = `
 >
   <button
     aria-expanded="true"
-    class="sc-bdnyFh eQakMx"
+    class="styles__Cart-sc-33q7z1-0 cfnkFh"
   >
     <icon-mock
       data-testid="cart-svg"
     />
     <span
-      class="sc-gtsqUy fRBgv"
+      class="styles__CartDetail-sc-33q7z1-1 gvvFRN"
       data-testid="cart-detail"
     >
       1
@@ -35,24 +35,24 @@ exports[`<Cart /> snapshots should match snapshot when cart modal open 1`] = `
   </button>
   <section
     aria-label="modal carrinho de compras"
-    class="sc-dlniIP ewAXln"
+    class="styles__Modal-sc-1muh66y-0 joXRfi"
   >
     <div
-      class="sc-hKFymg cCOwRs"
+      class="styles__Title-sc-1muh66y-1 mEFUd"
     >
       <h2>
         Cart
       </h2>
     </div>
     <div
-      class="sc-eCAqax cyRvTh"
+      class="styles__Content-sc-1muh66y-2 bUNORX"
     >
       <ul
-        class="sc-jSFipO jwfbaT"
+        class="styles__Items-sc-1muh66y-3 jSlPFn"
       />
       <button
         aria-label="finalizar compra"
-        class="sc-iqAbyq hIjlCR"
+        class="styles__StyledButton-sc-1csa66j-0 hmYbLP"
       >
         Checkout
       </button>
@@ -67,13 +67,13 @@ exports[`<Cart /> snapshots should match snapshot when cart not is empty 1`] = `
 >
   <button
     aria-expanded="false"
-    class="sc-bdnyFh eQakMx"
+    class="styles__Cart-sc-33q7z1-0 cfnkFh"
   >
     <icon-mock
       data-testid="cart-svg"
     />
     <span
-      class="sc-gtsqUy fRBgv"
+      class="styles__CartDetail-sc-33q7z1-1 gvvFRN"
       data-testid="cart-detail"
     >
       1
