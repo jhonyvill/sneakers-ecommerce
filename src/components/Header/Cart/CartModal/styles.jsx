@@ -30,6 +30,7 @@ export const Modal = styled.section`
   @media (max-width: ${({ theme }) => theme.screen.largeMobile}) {
     right: 0;
     width: calc(100% - 2rem);
+    min-width: 18rem;
     margin: 0 1rem;
   }
 `;

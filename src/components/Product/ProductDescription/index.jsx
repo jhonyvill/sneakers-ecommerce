@@ -3,8 +3,10 @@ import PropTypes from "prop-types";
 import { useProductPrice } from "../../../hooks/useProductPrice";
 
 const ProductDescription = ({ product }) => {
-  const { price, finalPrice, discountPercent, hasDiscount } =
-    useProductPrice(product.price, product.discount);
+  const { price, finalPrice, discountPercent, hasDiscount } = useProductPrice(
+    product.price,
+    product.discount
+  );
 
   return (
     <S.Container aria-label="descrição do produto">
@@ -15,7 +17,7 @@ const ProductDescription = ({ product }) => {
       {hasDiscount ? (
         <S.PriceContainer>
           <S.FinalPriceContainer>
-            <S.FinalPrice>${finalPrice}</S.FinalPrice>
+            <S.FinalPrice data-testid="final-price">${finalPrice}</S.FinalPrice>
             <S.Discount>{discountPercent}%</S.Discount>
           </S.FinalPriceContainer>
 
